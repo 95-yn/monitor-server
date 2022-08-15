@@ -1,0 +1,323 @@
+{
+  "keys": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+  "middleware": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+      "type": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+    "protocolWhiteList": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+      "port": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+      "user": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+      "password": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+      "database": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js"
+    },
+    "app": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+    "agent": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+    "default": {
+      "database": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js",
+    "allowMethods": "/Users/yining.zhao/Desktop/monitor/monitor-server/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "private": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "test": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "type": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "level": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "port": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
+}

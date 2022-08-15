@@ -1,0 +1,1116 @@
+2022-08-14 20:05:34,450 INFO 48236 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:05:34,472 INFO 48236 [egg-multipart] stream mode enable
+2022-08-14 20:05:34,591 INFO 48236 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:05:34,594 INFO 48236 [egg-security] use csrf middleware
+2022-08-14 20:05:34,594 INFO 48236 [egg-security] use methodnoallow middleware
+2022-08-14 20:05:34,595 INFO 48236 [egg-security] use noopen middleware
+2022-08-14 20:05:34,596 INFO 48236 [egg-security] use nosniff middleware
+2022-08-14 20:05:34,597 INFO 48236 [egg-security] use xssProtection middleware
+2022-08-14 20:05:34,598 INFO 48236 [egg-security] use xframe middleware
+2022-08-14 20:05:34,599 INFO 48236 [egg-security] use dta middleware
+2022-08-14 20:05:34,599 INFO 48236 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:05:34,608 INFO 48236 [egg:core] dump config after load, 3ms
+2022-08-14 20:05:34,621 INFO 48236 [egg-watcher:application] watcher start success
+2022-08-14 20:05:34,628 INFO 48236 [egg:core] dump config after ready, 6ms
+2022-08-14 20:05:43,504 INFO 48282 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:05:43,525 INFO 48282 [egg-multipart] stream mode enable
+2022-08-14 20:05:43,624 INFO 48282 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:05:43,627 INFO 48282 [egg-security] use csrf middleware
+2022-08-14 20:05:43,628 INFO 48282 [egg-security] use methodnoallow middleware
+2022-08-14 20:05:43,628 INFO 48282 [egg-security] use noopen middleware
+2022-08-14 20:05:43,629 INFO 48282 [egg-security] use nosniff middleware
+2022-08-14 20:05:43,630 INFO 48282 [egg-security] use xssProtection middleware
+2022-08-14 20:05:43,631 INFO 48282 [egg-security] use xframe middleware
+2022-08-14 20:05:43,632 INFO 48282 [egg-security] use dta middleware
+2022-08-14 20:05:43,632 INFO 48282 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:05:43,640 INFO 48282 [egg:core] dump config after load, 4ms
+2022-08-14 20:05:43,649 INFO 48282 [egg-watcher:application] watcher start success
+2022-08-14 20:05:43,656 INFO 48282 [egg:core] dump config after ready, 5ms
+2022-08-14 20:05:52,102 INFO 48393 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:05:52,126 INFO 48393 [egg-multipart] stream mode enable
+2022-08-14 20:05:52,235 INFO 48393 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:05:52,238 INFO 48393 [egg-security] use csrf middleware
+2022-08-14 20:05:52,239 INFO 48393 [egg-security] use methodnoallow middleware
+2022-08-14 20:05:52,239 INFO 48393 [egg-security] use noopen middleware
+2022-08-14 20:05:52,240 INFO 48393 [egg-security] use nosniff middleware
+2022-08-14 20:05:52,241 INFO 48393 [egg-security] use xssProtection middleware
+2022-08-14 20:05:52,241 INFO 48393 [egg-security] use xframe middleware
+2022-08-14 20:05:52,243 INFO 48393 [egg-security] use dta middleware
+2022-08-14 20:05:52,243 INFO 48393 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:05:52,251 INFO 48393 [egg:core] dump config after load, 4ms
+2022-08-14 20:05:52,261 INFO 48393 [egg-watcher:application] watcher start success
+2022-08-14 20:05:52,268 INFO 48393 [egg:core] dump config after ready, 5ms
+2022-08-14 20:05:53,055 INFO 48401 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:05:53,079 INFO 48401 [egg-multipart] stream mode enable
+2022-08-14 20:05:53,155 INFO 48401 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:05:53,157 INFO 48401 [egg-security] use csrf middleware
+2022-08-14 20:05:53,157 INFO 48401 [egg-security] use methodnoallow middleware
+2022-08-14 20:05:53,158 INFO 48401 [egg-security] use noopen middleware
+2022-08-14 20:05:53,159 INFO 48401 [egg-security] use nosniff middleware
+2022-08-14 20:05:53,159 INFO 48401 [egg-security] use xssProtection middleware
+2022-08-14 20:05:53,160 INFO 48401 [egg-security] use xframe middleware
+2022-08-14 20:05:53,160 INFO 48401 [egg-security] use dta middleware
+2022-08-14 20:05:53,160 INFO 48401 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:05:53,169 INFO 48401 [egg:core] dump config after load, 4ms
+2022-08-14 20:05:53,180 INFO 48401 [egg-watcher:application] watcher start success
+2022-08-14 20:05:53,186 INFO 48401 [egg:core] dump config after ready, 4ms
+2022-08-14 20:07:45,584 INFO 48619 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:07:45,615 INFO 48619 [egg-multipart] stream mode enable
+2022-08-14 20:07:45,779 INFO 48619 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:07:45,782 INFO 48619 [egg-security] use csrf middleware
+2022-08-14 20:07:45,783 INFO 48619 [egg-security] use methodnoallow middleware
+2022-08-14 20:07:45,784 INFO 48619 [egg-security] use noopen middleware
+2022-08-14 20:07:45,785 INFO 48619 [egg-security] use nosniff middleware
+2022-08-14 20:07:45,785 INFO 48619 [egg-security] use xssProtection middleware
+2022-08-14 20:07:45,786 INFO 48619 [egg-security] use xframe middleware
+2022-08-14 20:07:45,787 INFO 48619 [egg-security] use dta middleware
+2022-08-14 20:07:45,787 INFO 48619 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:07:45,799 INFO 48619 [egg:core] dump config after load, 7ms
+2022-08-14 20:07:45,812 INFO 48619 [egg-watcher:application] watcher start success
+2022-08-14 20:07:45,819 INFO 48619 [egg:core] dump config after ready, 5ms
+2022-08-14 20:07:47,104 INFO 48625 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:07:47,127 INFO 48625 [egg-multipart] stream mode enable
+2022-08-14 20:07:47,223 INFO 48625 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:07:47,225 INFO 48625 [egg-security] use csrf middleware
+2022-08-14 20:07:47,225 INFO 48625 [egg-security] use methodnoallow middleware
+2022-08-14 20:07:47,226 INFO 48625 [egg-security] use noopen middleware
+2022-08-14 20:07:47,226 INFO 48625 [egg-security] use nosniff middleware
+2022-08-14 20:07:47,227 INFO 48625 [egg-security] use xssProtection middleware
+2022-08-14 20:07:47,227 INFO 48625 [egg-security] use xframe middleware
+2022-08-14 20:07:47,227 INFO 48625 [egg-security] use dta middleware
+2022-08-14 20:07:47,227 INFO 48625 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:07:47,235 INFO 48625 [egg:core] dump config after load, 4ms
+2022-08-14 20:07:47,246 INFO 48625 [egg-watcher:application] watcher start success
+2022-08-14 20:07:47,259 INFO 48625 [egg:core] dump config after ready, 10ms
+2022-08-14 20:08:08,036 INFO 48678 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:08:08,069 INFO 48678 [egg-multipart] stream mode enable
+2022-08-14 20:08:08,207 INFO 48678 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:08:08,209 INFO 48678 [egg-security] use csrf middleware
+2022-08-14 20:08:08,209 INFO 48678 [egg-security] use methodnoallow middleware
+2022-08-14 20:08:08,209 INFO 48678 [egg-security] use noopen middleware
+2022-08-14 20:08:08,210 INFO 48678 [egg-security] use nosniff middleware
+2022-08-14 20:08:08,211 INFO 48678 [egg-security] use xssProtection middleware
+2022-08-14 20:08:08,211 INFO 48678 [egg-security] use xframe middleware
+2022-08-14 20:08:08,212 INFO 48678 [egg-security] use dta middleware
+2022-08-14 20:08:08,212 INFO 48678 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:08:08,220 INFO 48678 [egg:core] dump config after load, 4ms
+2022-08-14 20:08:08,229 INFO 48678 [egg-watcher:application] watcher start success
+2022-08-14 20:08:08,236 INFO 48678 [egg:core] dump config after ready, 5ms
+2022-08-14 20:08:09,709 INFO 48684 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:08:09,743 INFO 48684 [egg-multipart] stream mode enable
+2022-08-14 20:08:09,843 INFO 48684 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:08:09,845 INFO 48684 [egg-security] use csrf middleware
+2022-08-14 20:08:09,845 INFO 48684 [egg-security] use methodnoallow middleware
+2022-08-14 20:08:09,846 INFO 48684 [egg-security] use noopen middleware
+2022-08-14 20:08:09,846 INFO 48684 [egg-security] use nosniff middleware
+2022-08-14 20:08:09,847 INFO 48684 [egg-security] use xssProtection middleware
+2022-08-14 20:08:09,847 INFO 48684 [egg-security] use xframe middleware
+2022-08-14 20:08:09,848 INFO 48684 [egg-security] use dta middleware
+2022-08-14 20:08:09,848 INFO 48684 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:08:09,870 INFO 48684 [egg:core] dump config after load, 9ms
+2022-08-14 20:08:09,883 INFO 48684 [egg-watcher:application] watcher start success
+2022-08-14 20:08:09,890 INFO 48684 [egg:core] dump config after ready, 5ms
+2022-08-14 20:08:15,994 INFO 48707 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:08:16,043 INFO 48707 [egg-multipart] stream mode enable
+2022-08-14 20:08:16,138 INFO 48707 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:08:16,141 INFO 48707 [egg-security] use csrf middleware
+2022-08-14 20:08:16,142 INFO 48707 [egg-security] use methodnoallow middleware
+2022-08-14 20:08:16,143 INFO 48707 [egg-security] use noopen middleware
+2022-08-14 20:08:16,144 INFO 48707 [egg-security] use nosniff middleware
+2022-08-14 20:08:16,145 INFO 48707 [egg-security] use xssProtection middleware
+2022-08-14 20:08:16,145 INFO 48707 [egg-security] use xframe middleware
+2022-08-14 20:08:16,146 INFO 48707 [egg-security] use dta middleware
+2022-08-14 20:08:16,147 INFO 48707 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:08:16,156 INFO 48707 [egg:core] dump config after load, 5ms
+2022-08-14 20:08:16,167 INFO 48707 [egg-watcher:application] watcher start success
+2022-08-14 20:08:16,173 INFO 48707 [egg:core] dump config after ready, 4ms
+2022-08-14 20:08:17,875 INFO 48715 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:08:17,899 INFO 48715 [egg-multipart] stream mode enable
+2022-08-14 20:08:17,973 INFO 48715 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:08:17,975 INFO 48715 [egg-security] use csrf middleware
+2022-08-14 20:08:17,976 INFO 48715 [egg-security] use methodnoallow middleware
+2022-08-14 20:08:17,976 INFO 48715 [egg-security] use noopen middleware
+2022-08-14 20:08:17,977 INFO 48715 [egg-security] use nosniff middleware
+2022-08-14 20:08:17,977 INFO 48715 [egg-security] use xssProtection middleware
+2022-08-14 20:08:17,977 INFO 48715 [egg-security] use xframe middleware
+2022-08-14 20:08:17,978 INFO 48715 [egg-security] use dta middleware
+2022-08-14 20:08:17,978 INFO 48715 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:08:17,986 INFO 48715 [egg:core] dump config after load, 4ms
+2022-08-14 20:08:17,995 INFO 48715 [egg-watcher:application] watcher start success
+2022-08-14 20:08:18,001 INFO 48715 [egg:core] dump config after ready, 4ms
+2022-08-14 20:09:02,720 INFO 48848 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:09:02,830 INFO 48848 [egg-multipart] stream mode enable
+2022-08-14 20:09:03,069 INFO 48848 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:09:03,073 INFO 48848 [egg-security] use csrf middleware
+2022-08-14 20:09:03,074 INFO 48848 [egg-security] use methodnoallow middleware
+2022-08-14 20:09:03,075 INFO 48848 [egg-security] use noopen middleware
+2022-08-14 20:09:03,076 INFO 48848 [egg-security] use nosniff middleware
+2022-08-14 20:09:03,077 INFO 48848 [egg-security] use xssProtection middleware
+2022-08-14 20:09:03,078 INFO 48848 [egg-security] use xframe middleware
+2022-08-14 20:09:03,079 INFO 48848 [egg-security] use dta middleware
+2022-08-14 20:09:03,079 INFO 48848 [egg-security] compose 7 middlewares into one security middleware
+2022-08-14 20:09:03,090 INFO 48848 [egg:core] dump config after load, 5ms
+2022-08-14 20:09:03,103 INFO 48848 [egg-watcher:application] watcher start success
+2022-08-14 20:09:03,111 INFO 48848 [egg:core] dump config after ready, 6ms
+2022-08-14 20:11:03,150 INFO 49211 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:11:03,174 INFO 49211 [egg-multipart] stream mode enable
+2022-08-14 20:11:03,279 INFO 49211 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:11:03,281 INFO 49211 [egg-security] use methodnoallow middleware
+2022-08-14 20:11:03,282 INFO 49211 [egg-security] use noopen middleware
+2022-08-14 20:11:03,282 INFO 49211 [egg-security] use nosniff middleware
+2022-08-14 20:11:03,284 INFO 49211 [egg-security] use xssProtection middleware
+2022-08-14 20:11:03,284 INFO 49211 [egg-security] use xframe middleware
+2022-08-14 20:11:03,284 INFO 49211 [egg-security] use dta middleware
+2022-08-14 20:11:03,284 INFO 49211 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:11:03,293 INFO 49211 [egg:core] dump config after load, 4ms
+2022-08-14 20:11:03,307 INFO 49211 [egg-watcher:application] watcher start success
+2022-08-14 20:11:03,314 INFO 49211 [egg:core] dump config after ready, 5ms
+2022-08-14 20:11:21,251 INFO 49220 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:11:21,273 INFO 49220 [egg-multipart] stream mode enable
+2022-08-14 20:11:21,350 INFO 49220 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:11:21,352 INFO 49220 [egg-security] use methodnoallow middleware
+2022-08-14 20:11:21,354 INFO 49220 [egg-security] use noopen middleware
+2022-08-14 20:11:21,355 INFO 49220 [egg-security] use nosniff middleware
+2022-08-14 20:11:21,355 INFO 49220 [egg-security] use xssProtection middleware
+2022-08-14 20:11:21,355 INFO 49220 [egg-security] use xframe middleware
+2022-08-14 20:11:21,356 INFO 49220 [egg-security] use dta middleware
+2022-08-14 20:11:21,356 INFO 49220 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:11:21,364 INFO 49220 [egg:core] dump config after load, 4ms
+2022-08-14 20:11:21,373 INFO 49220 [egg-watcher:application] watcher start success
+2022-08-14 20:11:21,380 INFO 49220 [egg:core] dump config after ready, 5ms
+2022-08-14 20:11:23,263 INFO 49227 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:11:23,288 INFO 49227 [egg-multipart] stream mode enable
+2022-08-14 20:11:23,366 INFO 49227 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:11:23,368 INFO 49227 [egg-security] use methodnoallow middleware
+2022-08-14 20:11:23,369 INFO 49227 [egg-security] use noopen middleware
+2022-08-14 20:11:23,369 INFO 49227 [egg-security] use nosniff middleware
+2022-08-14 20:11:23,370 INFO 49227 [egg-security] use xssProtection middleware
+2022-08-14 20:11:23,371 INFO 49227 [egg-security] use xframe middleware
+2022-08-14 20:11:23,372 INFO 49227 [egg-security] use dta middleware
+2022-08-14 20:11:23,372 INFO 49227 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:11:23,380 INFO 49227 [egg:core] dump config after load, 4ms
+2022-08-14 20:11:23,390 INFO 49227 [egg-watcher:application] watcher start success
+2022-08-14 20:11:23,397 INFO 49227 [egg:core] dump config after ready, 5ms
+2022-08-14 20:11:24,179 INFO 49233 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:11:24,202 INFO 49233 [egg-multipart] stream mode enable
+2022-08-14 20:11:24,280 INFO 49233 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:11:24,282 INFO 49233 [egg-security] use methodnoallow middleware
+2022-08-14 20:11:24,283 INFO 49233 [egg-security] use noopen middleware
+2022-08-14 20:11:24,284 INFO 49233 [egg-security] use nosniff middleware
+2022-08-14 20:11:24,285 INFO 49233 [egg-security] use xssProtection middleware
+2022-08-14 20:11:24,286 INFO 49233 [egg-security] use xframe middleware
+2022-08-14 20:11:24,286 INFO 49233 [egg-security] use dta middleware
+2022-08-14 20:11:24,286 INFO 49233 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:11:24,296 INFO 49233 [egg:core] dump config after load, 4ms
+2022-08-14 20:11:24,306 INFO 49233 [egg-watcher:application] watcher start success
+2022-08-14 20:11:24,313 INFO 49233 [egg:core] dump config after ready, 5ms
+2022-08-14 20:11:52,650 INFO 49244 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:11:52,671 INFO 49244 [egg-multipart] stream mode enable
+2022-08-14 20:11:52,743 INFO 49244 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:11:52,745 INFO 49244 [egg-security] use methodnoallow middleware
+2022-08-14 20:11:52,746 INFO 49244 [egg-security] use noopen middleware
+2022-08-14 20:11:52,746 INFO 49244 [egg-security] use nosniff middleware
+2022-08-14 20:11:52,747 INFO 49244 [egg-security] use xssProtection middleware
+2022-08-14 20:11:52,748 INFO 49244 [egg-security] use xframe middleware
+2022-08-14 20:11:52,748 INFO 49244 [egg-security] use dta middleware
+2022-08-14 20:11:52,748 INFO 49244 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:11:52,757 INFO 49244 [egg:core] dump config after load, 5ms
+2022-08-14 20:11:52,766 INFO 49244 [egg-watcher:application] watcher start success
+2022-08-14 20:11:52,772 INFO 49244 [egg:core] dump config after ready, 5ms
+2022-08-14 20:12:29,861 INFO 49300 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:12:29,885 INFO 49300 [egg-multipart] stream mode enable
+2022-08-14 20:12:29,962 INFO 49300 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:12:29,964 INFO 49300 [egg-security] use methodnoallow middleware
+2022-08-14 20:12:29,965 INFO 49300 [egg-security] use noopen middleware
+2022-08-14 20:12:29,965 INFO 49300 [egg-security] use nosniff middleware
+2022-08-14 20:12:29,966 INFO 49300 [egg-security] use xssProtection middleware
+2022-08-14 20:12:29,966 INFO 49300 [egg-security] use xframe middleware
+2022-08-14 20:12:29,967 INFO 49300 [egg-security] use dta middleware
+2022-08-14 20:12:29,967 INFO 49300 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:12:29,981 INFO 49300 [egg:core] dump config after load, 5ms
+2022-08-14 20:12:29,990 INFO 49300 [egg-watcher:application] watcher start success
+2022-08-14 20:12:29,997 INFO 49300 [egg:core] dump config after ready, 5ms
+2022-08-14 20:12:38,892 INFO 49309 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:12:38,914 INFO 49309 [egg-multipart] stream mode enable
+2022-08-14 20:12:38,991 INFO 49309 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:12:38,993 INFO 49309 [egg-security] use methodnoallow middleware
+2022-08-14 20:12:38,994 INFO 49309 [egg-security] use noopen middleware
+2022-08-14 20:12:38,994 INFO 49309 [egg-security] use nosniff middleware
+2022-08-14 20:12:38,996 INFO 49309 [egg-security] use xssProtection middleware
+2022-08-14 20:12:38,996 INFO 49309 [egg-security] use xframe middleware
+2022-08-14 20:12:38,996 INFO 49309 [egg-security] use dta middleware
+2022-08-14 20:12:38,997 INFO 49309 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:12:39,008 INFO 49309 [egg:core] dump config after load, 6ms
+2022-08-14 20:12:39,018 INFO 49309 [egg-watcher:application] watcher start success
+2022-08-14 20:12:39,025 INFO 49309 [egg:core] dump config after ready, 5ms
+2022-08-14 20:12:39,803 INFO 49312 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:12:39,827 INFO 49312 [egg-multipart] stream mode enable
+2022-08-14 20:12:39,902 INFO 49312 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:12:39,904 INFO 49312 [egg-security] use methodnoallow middleware
+2022-08-14 20:12:39,905 INFO 49312 [egg-security] use noopen middleware
+2022-08-14 20:12:39,905 INFO 49312 [egg-security] use nosniff middleware
+2022-08-14 20:12:39,907 INFO 49312 [egg-security] use xssProtection middleware
+2022-08-14 20:12:39,908 INFO 49312 [egg-security] use xframe middleware
+2022-08-14 20:12:39,908 INFO 49312 [egg-security] use dta middleware
+2022-08-14 20:12:39,908 INFO 49312 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:12:39,919 INFO 49312 [egg:core] dump config after load, 4ms
+2022-08-14 20:12:39,929 INFO 49312 [egg-watcher:application] watcher start success
+2022-08-14 20:12:39,936 INFO 49312 [egg:core] dump config after ready, 5ms
+2022-08-14 20:12:51,689 INFO 49333 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:12:51,717 INFO 49333 [egg-multipart] stream mode enable
+2022-08-14 20:12:51,798 INFO 49333 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:12:51,800 INFO 49333 [egg-security] use methodnoallow middleware
+2022-08-14 20:12:51,801 INFO 49333 [egg-security] use noopen middleware
+2022-08-14 20:12:51,801 INFO 49333 [egg-security] use nosniff middleware
+2022-08-14 20:12:51,801 INFO 49333 [egg-security] use xssProtection middleware
+2022-08-14 20:12:51,802 INFO 49333 [egg-security] use xframe middleware
+2022-08-14 20:12:51,802 INFO 49333 [egg-security] use dta middleware
+2022-08-14 20:12:51,802 INFO 49333 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:12:51,814 INFO 49333 [egg:core] dump config after load, 4ms
+2022-08-14 20:12:51,823 INFO 49333 [egg-watcher:application] watcher start success
+2022-08-14 20:12:51,830 INFO 49333 [egg:core] dump config after ready, 5ms
+2022-08-14 20:12:53,883 INFO 49339 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:12:53,906 INFO 49339 [egg-multipart] stream mode enable
+2022-08-14 20:12:53,980 INFO 49339 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:12:53,982 INFO 49339 [egg-security] use methodnoallow middleware
+2022-08-14 20:12:53,983 INFO 49339 [egg-security] use noopen middleware
+2022-08-14 20:12:53,984 INFO 49339 [egg-security] use nosniff middleware
+2022-08-14 20:12:53,984 INFO 49339 [egg-security] use xssProtection middleware
+2022-08-14 20:12:53,984 INFO 49339 [egg-security] use xframe middleware
+2022-08-14 20:12:53,985 INFO 49339 [egg-security] use dta middleware
+2022-08-14 20:12:53,985 INFO 49339 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:12:53,996 INFO 49339 [egg:core] dump config after load, 4ms
+2022-08-14 20:12:54,007 INFO 49339 [egg-watcher:application] watcher start success
+2022-08-14 20:12:54,014 INFO 49339 [egg:core] dump config after ready, 5ms
+2022-08-14 20:12:54,908 INFO 49342 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:12:54,934 INFO 49342 [egg-multipart] stream mode enable
+2022-08-14 20:12:55,021 INFO 49342 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:12:55,023 INFO 49342 [egg-security] use methodnoallow middleware
+2022-08-14 20:12:55,024 INFO 49342 [egg-security] use noopen middleware
+2022-08-14 20:12:55,025 INFO 49342 [egg-security] use nosniff middleware
+2022-08-14 20:12:55,025 INFO 49342 [egg-security] use xssProtection middleware
+2022-08-14 20:12:55,026 INFO 49342 [egg-security] use xframe middleware
+2022-08-14 20:12:55,026 INFO 49342 [egg-security] use dta middleware
+2022-08-14 20:12:55,026 INFO 49342 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:12:55,039 INFO 49342 [egg:core] dump config after load, 6ms
+2022-08-14 20:12:55,052 INFO 49342 [egg-watcher:application] watcher start success
+2022-08-14 20:12:55,823 INFO 49347 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:12:55,849 INFO 49347 [egg-multipart] stream mode enable
+2022-08-14 20:12:55,931 INFO 49347 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:12:55,934 INFO 49347 [egg-security] use methodnoallow middleware
+2022-08-14 20:12:55,934 INFO 49347 [egg-security] use noopen middleware
+2022-08-14 20:12:55,935 INFO 49347 [egg-security] use nosniff middleware
+2022-08-14 20:12:55,936 INFO 49347 [egg-security] use xssProtection middleware
+2022-08-14 20:12:55,936 INFO 49347 [egg-security] use xframe middleware
+2022-08-14 20:12:55,936 INFO 49347 [egg-security] use dta middleware
+2022-08-14 20:12:55,936 INFO 49347 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:12:55,949 INFO 49347 [egg:core] dump config after load, 5ms
+2022-08-14 20:12:55,958 INFO 49347 [egg-watcher:application] watcher start success
+2022-08-14 20:12:55,965 INFO 49347 [egg:core] dump config after ready, 5ms
+2022-08-14 20:13:02,931 INFO 49361 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:13:02,955 INFO 49361 [egg-multipart] stream mode enable
+2022-08-14 20:13:03,034 INFO 49361 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:13:03,036 INFO 49361 [egg-security] use methodnoallow middleware
+2022-08-14 20:13:03,037 INFO 49361 [egg-security] use noopen middleware
+2022-08-14 20:13:03,038 INFO 49361 [egg-security] use nosniff middleware
+2022-08-14 20:13:03,039 INFO 49361 [egg-security] use xssProtection middleware
+2022-08-14 20:13:03,040 INFO 49361 [egg-security] use xframe middleware
+2022-08-14 20:13:03,040 INFO 49361 [egg-security] use dta middleware
+2022-08-14 20:13:03,040 INFO 49361 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:13:03,081 INFO 49361 [egg:core] dump config after load, 4ms
+2022-08-14 20:13:03,091 INFO 49361 [egg-watcher:application] watcher start success
+2022-08-14 20:13:03,101 INFO 49361 [egg:core] dump config after ready, 5ms
+2022-08-14 20:13:06,411 INFO 49368 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:13:06,445 INFO 49368 [egg-multipart] stream mode enable
+2022-08-14 20:13:06,543 INFO 49368 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:13:06,545 INFO 49368 [egg-security] use methodnoallow middleware
+2022-08-14 20:13:06,546 INFO 49368 [egg-security] use noopen middleware
+2022-08-14 20:13:06,546 INFO 49368 [egg-security] use nosniff middleware
+2022-08-14 20:13:06,548 INFO 49368 [egg-security] use xssProtection middleware
+2022-08-14 20:13:06,548 INFO 49368 [egg-security] use xframe middleware
+2022-08-14 20:13:06,549 INFO 49368 [egg-security] use dta middleware
+2022-08-14 20:13:06,549 INFO 49368 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:13:06,561 INFO 49368 [egg:core] dump config after load, 5ms
+2022-08-14 20:13:06,571 INFO 49368 [egg-watcher:application] watcher start success
+2022-08-14 20:13:06,578 INFO 49368 [egg:core] dump config after ready, 5ms
+2022-08-14 20:13:07,415 INFO 49371 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:13:07,439 INFO 49371 [egg-multipart] stream mode enable
+2022-08-14 20:13:07,518 INFO 49371 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:13:07,520 INFO 49371 [egg-security] use methodnoallow middleware
+2022-08-14 20:13:07,521 INFO 49371 [egg-security] use noopen middleware
+2022-08-14 20:13:07,522 INFO 49371 [egg-security] use nosniff middleware
+2022-08-14 20:13:07,523 INFO 49371 [egg-security] use xssProtection middleware
+2022-08-14 20:13:07,523 INFO 49371 [egg-security] use xframe middleware
+2022-08-14 20:13:07,524 INFO 49371 [egg-security] use dta middleware
+2022-08-14 20:13:07,524 INFO 49371 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:13:07,537 INFO 49371 [egg:core] dump config after load, 5ms
+2022-08-14 20:13:07,548 INFO 49371 [egg-watcher:application] watcher start success
+2022-08-14 20:13:07,556 INFO 49371 [egg:core] dump config after ready, 6ms
+2022-08-14 20:13:33,247 INFO 49385 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:13:33,273 INFO 49385 [egg-multipart] stream mode enable
+2022-08-14 20:13:33,381 INFO 49385 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:13:33,383 INFO 49385 [egg-security] use methodnoallow middleware
+2022-08-14 20:13:33,384 INFO 49385 [egg-security] use noopen middleware
+2022-08-14 20:13:33,385 INFO 49385 [egg-security] use nosniff middleware
+2022-08-14 20:13:33,385 INFO 49385 [egg-security] use xssProtection middleware
+2022-08-14 20:13:33,386 INFO 49385 [egg-security] use xframe middleware
+2022-08-14 20:13:33,387 INFO 49385 [egg-security] use dta middleware
+2022-08-14 20:13:33,387 INFO 49385 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:13:33,399 INFO 49385 [egg:core] dump config after load, 5ms
+2022-08-14 20:13:33,409 INFO 49385 [egg-watcher:application] watcher start success
+2022-08-14 20:13:33,417 INFO 49385 [egg:core] dump config after ready, 6ms
+2022-08-14 20:13:34,251 INFO 49391 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:13:34,275 INFO 49391 [egg-multipart] stream mode enable
+2022-08-14 20:13:34,354 INFO 49391 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:13:34,356 INFO 49391 [egg-security] use methodnoallow middleware
+2022-08-14 20:13:34,357 INFO 49391 [egg-security] use noopen middleware
+2022-08-14 20:13:34,357 INFO 49391 [egg-security] use nosniff middleware
+2022-08-14 20:13:34,358 INFO 49391 [egg-security] use xssProtection middleware
+2022-08-14 20:13:34,358 INFO 49391 [egg-security] use xframe middleware
+2022-08-14 20:13:34,360 INFO 49391 [egg-security] use dta middleware
+2022-08-14 20:13:34,360 INFO 49391 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:13:34,371 INFO 49391 [egg:core] dump config after load, 4ms
+2022-08-14 20:13:34,382 INFO 49391 [egg-watcher:application] watcher start success
+2022-08-14 20:13:34,390 INFO 49391 [egg:core] dump config after ready, 6ms
+2022-08-14 20:13:53,446 INFO 49409 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:13:53,469 INFO 49409 [egg-multipart] stream mode enable
+2022-08-14 20:13:53,547 INFO 49409 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:13:53,550 INFO 49409 [egg-security] use methodnoallow middleware
+2022-08-14 20:13:53,550 INFO 49409 [egg-security] use noopen middleware
+2022-08-14 20:13:53,551 INFO 49409 [egg-security] use nosniff middleware
+2022-08-14 20:13:53,551 INFO 49409 [egg-security] use xssProtection middleware
+2022-08-14 20:13:53,552 INFO 49409 [egg-security] use xframe middleware
+2022-08-14 20:13:53,552 INFO 49409 [egg-security] use dta middleware
+2022-08-14 20:13:53,552 INFO 49409 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:13:53,564 INFO 49409 [egg:core] dump config after load, 5ms
+2022-08-14 20:13:53,573 INFO 49409 [egg-watcher:application] watcher start success
+2022-08-14 20:13:53,580 INFO 49409 [egg:core] dump config after ready, 5ms
+2022-08-14 20:15:05,023 INFO 49475 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:15:05,047 INFO 49475 [egg-multipart] stream mode enable
+2022-08-14 20:15:05,127 INFO 49475 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:15:05,130 INFO 49475 [egg-security] use methodnoallow middleware
+2022-08-14 20:15:05,131 INFO 49475 [egg-security] use noopen middleware
+2022-08-14 20:15:05,131 INFO 49475 [egg-security] use nosniff middleware
+2022-08-14 20:15:05,132 INFO 49475 [egg-security] use xssProtection middleware
+2022-08-14 20:15:05,132 INFO 49475 [egg-security] use xframe middleware
+2022-08-14 20:15:05,134 INFO 49475 [egg-security] use dta middleware
+2022-08-14 20:15:05,134 INFO 49475 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:15:05,145 INFO 49475 [egg:core] dump config after load, 4ms
+2022-08-14 20:15:05,156 INFO 49475 [egg-watcher:application] watcher start success
+2022-08-14 20:15:05,164 INFO 49475 [egg:core] dump config after ready, 6ms
+2022-08-14 20:15:06,043 INFO 49486 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:15:06,068 INFO 49486 [egg-multipart] stream mode enable
+2022-08-14 20:15:06,150 INFO 49486 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:15:06,152 INFO 49486 [egg-security] use methodnoallow middleware
+2022-08-14 20:15:06,153 INFO 49486 [egg-security] use noopen middleware
+2022-08-14 20:15:06,154 INFO 49486 [egg-security] use nosniff middleware
+2022-08-14 20:15:06,154 INFO 49486 [egg-security] use xssProtection middleware
+2022-08-14 20:15:06,154 INFO 49486 [egg-security] use xframe middleware
+2022-08-14 20:15:06,155 INFO 49486 [egg-security] use dta middleware
+2022-08-14 20:15:06,155 INFO 49486 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:15:06,167 INFO 49486 [egg:core] dump config after load, 5ms
+2022-08-14 20:15:06,176 INFO 49486 [egg-watcher:application] watcher start success
+2022-08-14 20:15:06,183 INFO 49486 [egg:core] dump config after ready, 5ms
+2022-08-14 20:15:08,699 INFO 49489 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:15:08,723 INFO 49489 [egg-multipart] stream mode enable
+2022-08-14 20:15:08,807 INFO 49489 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:15:08,809 INFO 49489 [egg-security] use methodnoallow middleware
+2022-08-14 20:15:08,810 INFO 49489 [egg-security] use noopen middleware
+2022-08-14 20:15:08,810 INFO 49489 [egg-security] use nosniff middleware
+2022-08-14 20:15:08,811 INFO 49489 [egg-security] use xssProtection middleware
+2022-08-14 20:15:08,811 INFO 49489 [egg-security] use xframe middleware
+2022-08-14 20:15:08,812 INFO 49489 [egg-security] use dta middleware
+2022-08-14 20:15:08,812 INFO 49489 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:15:08,823 INFO 49489 [egg:core] dump config after load, 4ms
+2022-08-14 20:15:08,833 INFO 49489 [egg-watcher:application] watcher start success
+2022-08-14 20:15:08,840 INFO 49489 [egg:core] dump config after ready, 5ms
+2022-08-14 20:15:13,513 INFO 49498 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:15:13,543 INFO 49498 [egg-multipart] stream mode enable
+2022-08-14 20:15:13,633 INFO 49498 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:15:13,636 INFO 49498 [egg-security] use methodnoallow middleware
+2022-08-14 20:15:13,637 INFO 49498 [egg-security] use noopen middleware
+2022-08-14 20:15:13,638 INFO 49498 [egg-security] use nosniff middleware
+2022-08-14 20:15:13,638 INFO 49498 [egg-security] use xssProtection middleware
+2022-08-14 20:15:13,639 INFO 49498 [egg-security] use xframe middleware
+2022-08-14 20:15:13,640 INFO 49498 [egg-security] use dta middleware
+2022-08-14 20:15:13,640 INFO 49498 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:15:13,651 INFO 49498 [egg:core] dump config after load, 5ms
+2022-08-14 20:15:13,663 INFO 49498 [egg-watcher:application] watcher start success
+2022-08-14 20:15:13,671 INFO 49498 [egg:core] dump config after ready, 6ms
+2022-08-14 20:15:26,773 INFO 49506 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:15:26,799 INFO 49506 [egg-multipart] stream mode enable
+2022-08-14 20:15:26,889 INFO 49506 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:15:26,892 INFO 49506 [egg-security] use methodnoallow middleware
+2022-08-14 20:15:26,893 INFO 49506 [egg-security] use noopen middleware
+2022-08-14 20:15:26,893 INFO 49506 [egg-security] use nosniff middleware
+2022-08-14 20:15:26,895 INFO 49506 [egg-security] use xssProtection middleware
+2022-08-14 20:15:26,896 INFO 49506 [egg-security] use xframe middleware
+2022-08-14 20:15:26,896 INFO 49506 [egg-security] use dta middleware
+2022-08-14 20:15:26,896 INFO 49506 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:15:26,910 INFO 49506 [egg:core] dump config after load, 4ms
+2022-08-14 20:15:26,920 INFO 49506 [egg-watcher:application] watcher start success
+2022-08-14 20:15:26,928 INFO 49506 [egg:core] dump config after ready, 6ms
+2022-08-14 20:15:27,886 INFO 49511 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:15:27,911 INFO 49511 [egg-multipart] stream mode enable
+2022-08-14 20:15:27,992 INFO 49511 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:15:27,994 INFO 49511 [egg-security] use methodnoallow middleware
+2022-08-14 20:15:27,995 INFO 49511 [egg-security] use noopen middleware
+2022-08-14 20:15:27,995 INFO 49511 [egg-security] use nosniff middleware
+2022-08-14 20:15:27,996 INFO 49511 [egg-security] use xssProtection middleware
+2022-08-14 20:15:27,997 INFO 49511 [egg-security] use xframe middleware
+2022-08-14 20:15:27,998 INFO 49511 [egg-security] use dta middleware
+2022-08-14 20:15:27,998 INFO 49511 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:15:28,010 INFO 49511 [egg:core] dump config after load, 5ms
+2022-08-14 20:15:28,021 INFO 49511 [egg-watcher:application] watcher start success
+2022-08-14 20:15:28,030 INFO 49511 [egg:core] dump config after ready, 7ms
+2022-08-14 20:15:39,469 INFO 49580 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:15:39,495 INFO 49580 [egg-multipart] stream mode enable
+2022-08-14 20:15:39,582 INFO 49580 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:15:39,585 INFO 49580 [egg-security] use methodnoallow middleware
+2022-08-14 20:15:39,586 INFO 49580 [egg-security] use noopen middleware
+2022-08-14 20:15:39,587 INFO 49580 [egg-security] use nosniff middleware
+2022-08-14 20:15:39,588 INFO 49580 [egg-security] use xssProtection middleware
+2022-08-14 20:15:39,589 INFO 49580 [egg-security] use xframe middleware
+2022-08-14 20:15:39,591 INFO 49580 [egg-security] use dta middleware
+2022-08-14 20:15:39,591 INFO 49580 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:15:39,605 INFO 49580 [egg:core] dump config after load, 6ms
+2022-08-14 20:15:39,616 INFO 49580 [egg-watcher:application] watcher start success
+2022-08-14 20:15:39,624 INFO 49580 [egg:core] dump config after ready, 6ms
+2022-08-14 20:15:40,666 INFO 49590 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:15:40,691 INFO 49590 [egg-multipart] stream mode enable
+2022-08-14 20:15:40,778 INFO 49590 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:15:40,780 INFO 49590 [egg-security] use methodnoallow middleware
+2022-08-14 20:15:40,781 INFO 49590 [egg-security] use noopen middleware
+2022-08-14 20:15:40,781 INFO 49590 [egg-security] use nosniff middleware
+2022-08-14 20:15:40,782 INFO 49590 [egg-security] use xssProtection middleware
+2022-08-14 20:15:40,782 INFO 49590 [egg-security] use xframe middleware
+2022-08-14 20:15:40,783 INFO 49590 [egg-security] use dta middleware
+2022-08-14 20:15:40,783 INFO 49590 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:15:40,814 INFO 49590 [egg:core] dump config after load, 5ms
+2022-08-14 20:15:40,825 INFO 49590 [egg-watcher:application] watcher start success
+2022-08-14 20:15:40,833 INFO 49590 [egg:core] dump config after ready, 6ms
+2022-08-14 20:16:22,319 INFO 49630 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:16:22,347 INFO 49630 [egg-multipart] stream mode enable
+2022-08-14 20:16:22,470 INFO 49630 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:16:22,473 INFO 49630 [egg-security] use methodnoallow middleware
+2022-08-14 20:16:22,476 INFO 49630 [egg-security] use noopen middleware
+2022-08-14 20:16:22,477 INFO 49630 [egg-security] use nosniff middleware
+2022-08-14 20:16:22,477 INFO 49630 [egg-security] use xssProtection middleware
+2022-08-14 20:16:22,478 INFO 49630 [egg-security] use xframe middleware
+2022-08-14 20:16:22,479 INFO 49630 [egg-security] use dta middleware
+2022-08-14 20:16:22,479 INFO 49630 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:16:22,491 INFO 49630 [egg:core] dump config after load, 4ms
+2022-08-14 20:16:22,511 INFO 49630 [egg-watcher:application] watcher start success
+2022-08-14 20:16:22,518 INFO 49630 [egg:core] dump config after ready, 5ms
+2022-08-14 20:16:32,859 INFO 49650 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:16:32,882 INFO 49650 [egg-multipart] stream mode enable
+2022-08-14 20:16:32,961 INFO 49650 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:16:32,963 INFO 49650 [egg-security] use methodnoallow middleware
+2022-08-14 20:16:32,964 INFO 49650 [egg-security] use noopen middleware
+2022-08-14 20:16:32,965 INFO 49650 [egg-security] use nosniff middleware
+2022-08-14 20:16:32,965 INFO 49650 [egg-security] use xssProtection middleware
+2022-08-14 20:16:32,966 INFO 49650 [egg-security] use xframe middleware
+2022-08-14 20:16:32,966 INFO 49650 [egg-security] use dta middleware
+2022-08-14 20:16:32,966 INFO 49650 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:16:32,978 INFO 49650 [egg:core] dump config after load, 4ms
+2022-08-14 20:16:32,991 INFO 49650 [egg-watcher:application] watcher start success
+2022-08-14 20:16:32,998 INFO 49650 [egg:core] dump config after ready, 5ms
+2022-08-14 20:16:50,031 INFO 49667 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:16:50,052 INFO 49667 [egg-multipart] stream mode enable
+2022-08-14 20:16:50,136 INFO 49667 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:16:50,138 INFO 49667 [egg-security] use methodnoallow middleware
+2022-08-14 20:16:50,139 INFO 49667 [egg-security] use noopen middleware
+2022-08-14 20:16:50,139 INFO 49667 [egg-security] use nosniff middleware
+2022-08-14 20:16:50,140 INFO 49667 [egg-security] use xssProtection middleware
+2022-08-14 20:16:50,140 INFO 49667 [egg-security] use xframe middleware
+2022-08-14 20:16:50,142 INFO 49667 [egg-security] use dta middleware
+2022-08-14 20:16:50,142 INFO 49667 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:16:50,153 INFO 49667 [egg:core] dump config after load, 5ms
+2022-08-14 20:16:50,163 INFO 49667 [egg-watcher:application] watcher start success
+2022-08-14 20:16:50,171 INFO 49667 [egg:core] dump config after ready, 6ms
+2022-08-14 20:17:05,228 INFO 49690 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:17:05,255 INFO 49690 [egg-multipart] stream mode enable
+2022-08-14 20:17:05,351 INFO 49690 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:17:05,353 INFO 49690 [egg-security] use methodnoallow middleware
+2022-08-14 20:17:05,354 INFO 49690 [egg-security] use noopen middleware
+2022-08-14 20:17:05,355 INFO 49690 [egg-security] use nosniff middleware
+2022-08-14 20:17:05,356 INFO 49690 [egg-security] use xssProtection middleware
+2022-08-14 20:17:05,356 INFO 49690 [egg-security] use xframe middleware
+2022-08-14 20:17:05,356 INFO 49690 [egg-security] use dta middleware
+2022-08-14 20:17:05,357 INFO 49690 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:17:05,372 INFO 49690 [egg:core] dump config after load, 5ms
+2022-08-14 20:17:05,383 INFO 49690 [egg-watcher:application] watcher start success
+2022-08-14 20:17:05,391 INFO 49690 [egg:core] dump config after ready, 6ms
+2022-08-14 20:17:06,705 INFO 49697 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:17:06,731 INFO 49697 [egg-multipart] stream mode enable
+2022-08-14 20:17:06,834 INFO 49697 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:17:06,837 INFO 49697 [egg-security] use methodnoallow middleware
+2022-08-14 20:17:06,838 INFO 49697 [egg-security] use noopen middleware
+2022-08-14 20:17:06,838 INFO 49697 [egg-security] use nosniff middleware
+2022-08-14 20:17:06,839 INFO 49697 [egg-security] use xssProtection middleware
+2022-08-14 20:17:06,839 INFO 49697 [egg-security] use xframe middleware
+2022-08-14 20:17:06,840 INFO 49697 [egg-security] use dta middleware
+2022-08-14 20:17:06,840 INFO 49697 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:17:06,863 INFO 49697 [egg:core] dump config after load, 11ms
+2022-08-14 20:17:06,875 INFO 49697 [egg-watcher:application] watcher start success
+2022-08-14 20:17:06,883 INFO 49697 [egg:core] dump config after ready, 6ms
+2022-08-14 20:17:32,032 INFO 49731 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:17:32,064 INFO 49731 [egg-multipart] stream mode enable
+2022-08-14 20:17:32,208 INFO 49731 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:17:32,213 INFO 49731 [egg-security] use methodnoallow middleware
+2022-08-14 20:17:32,214 INFO 49731 [egg-security] use noopen middleware
+2022-08-14 20:17:32,215 INFO 49731 [egg-security] use nosniff middleware
+2022-08-14 20:17:32,216 INFO 49731 [egg-security] use xssProtection middleware
+2022-08-14 20:17:32,217 INFO 49731 [egg-security] use xframe middleware
+2022-08-14 20:17:32,218 INFO 49731 [egg-security] use dta middleware
+2022-08-14 20:17:32,218 INFO 49731 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:17:32,235 INFO 49731 [egg:core] dump config after load, 5ms
+2022-08-14 20:17:32,248 INFO 49731 [egg-watcher:application] watcher start success
+2022-08-14 20:17:32,257 INFO 49731 [egg:core] dump config after ready, 7ms
+2022-08-14 20:17:33,286 INFO 49736 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:17:33,313 INFO 49736 [egg-multipart] stream mode enable
+2022-08-14 20:17:33,401 INFO 49736 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:17:33,404 INFO 49736 [egg-security] use methodnoallow middleware
+2022-08-14 20:17:33,405 INFO 49736 [egg-security] use noopen middleware
+2022-08-14 20:17:33,405 INFO 49736 [egg-security] use nosniff middleware
+2022-08-14 20:17:33,406 INFO 49736 [egg-security] use xssProtection middleware
+2022-08-14 20:17:33,408 INFO 49736 [egg-security] use xframe middleware
+2022-08-14 20:17:33,409 INFO 49736 [egg-security] use dta middleware
+2022-08-14 20:17:33,409 INFO 49736 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:17:33,421 INFO 49736 [egg:core] dump config after load, 5ms
+2022-08-14 20:17:33,432 INFO 49736 [egg-watcher:application] watcher start success
+2022-08-14 20:17:33,440 INFO 49736 [egg:core] dump config after ready, 6ms
+2022-08-14 20:20:29,177 INFO 49767 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:20:29,203 INFO 49767 [egg-multipart] stream mode enable
+2022-08-14 20:20:29,332 INFO 49767 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:20:29,334 INFO 49767 [egg-security] use methodnoallow middleware
+2022-08-14 20:20:29,335 INFO 49767 [egg-security] use noopen middleware
+2022-08-14 20:20:29,336 INFO 49767 [egg-security] use nosniff middleware
+2022-08-14 20:20:29,337 INFO 49767 [egg-security] use xssProtection middleware
+2022-08-14 20:20:29,337 INFO 49767 [egg-security] use xframe middleware
+2022-08-14 20:20:29,338 INFO 49767 [egg-security] use dta middleware
+2022-08-14 20:20:29,338 INFO 49767 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:20:29,349 INFO 49767 [egg:core] dump config after load, 4ms
+2022-08-14 20:20:29,358 INFO 49767 [egg-watcher:application] watcher start success
+2022-08-14 20:20:29,364 INFO 49767 [egg:core] dump config after ready, 4ms
+2022-08-14 20:20:30,315 INFO 49774 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:20:30,341 INFO 49774 [egg-multipart] stream mode enable
+2022-08-14 20:20:30,425 INFO 49774 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:20:30,427 INFO 49774 [egg-security] use methodnoallow middleware
+2022-08-14 20:20:30,428 INFO 49774 [egg-security] use noopen middleware
+2022-08-14 20:20:30,429 INFO 49774 [egg-security] use nosniff middleware
+2022-08-14 20:20:30,429 INFO 49774 [egg-security] use xssProtection middleware
+2022-08-14 20:20:30,430 INFO 49774 [egg-security] use xframe middleware
+2022-08-14 20:20:30,431 INFO 49774 [egg-security] use dta middleware
+2022-08-14 20:20:30,431 INFO 49774 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:20:30,445 INFO 49774 [egg:core] dump config after load, 5ms
+2022-08-14 20:20:30,539 INFO 49774 [egg-watcher:application] watcher start success
+2022-08-14 20:20:30,547 INFO 49774 [egg:core] dump config after ready, 6ms
+2022-08-14 20:20:37,294 INFO 49785 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:20:37,321 INFO 49785 [egg-multipart] stream mode enable
+2022-08-14 20:20:37,424 INFO 49785 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:20:37,426 INFO 49785 [egg-security] use methodnoallow middleware
+2022-08-14 20:20:37,427 INFO 49785 [egg-security] use noopen middleware
+2022-08-14 20:20:37,427 INFO 49785 [egg-security] use nosniff middleware
+2022-08-14 20:20:37,429 INFO 49785 [egg-security] use xssProtection middleware
+2022-08-14 20:20:37,429 INFO 49785 [egg-security] use xframe middleware
+2022-08-14 20:20:37,430 INFO 49785 [egg-security] use dta middleware
+2022-08-14 20:20:37,430 INFO 49785 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:20:37,440 INFO 49785 [egg:core] dump config after load, 4ms
+2022-08-14 20:20:37,450 INFO 49785 [egg-watcher:application] watcher start success
+2022-08-14 20:20:37,456 INFO 49785 [egg:core] dump config after ready, 4ms
+2022-08-14 20:20:49,832 INFO 49798 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:20:49,858 INFO 49798 [egg-multipart] stream mode enable
+2022-08-14 20:20:49,984 INFO 49798 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:20:49,987 INFO 49798 [egg-security] use methodnoallow middleware
+2022-08-14 20:20:49,988 INFO 49798 [egg-security] use noopen middleware
+2022-08-14 20:20:49,989 INFO 49798 [egg-security] use nosniff middleware
+2022-08-14 20:20:49,990 INFO 49798 [egg-security] use xssProtection middleware
+2022-08-14 20:20:49,991 INFO 49798 [egg-security] use xframe middleware
+2022-08-14 20:20:49,992 INFO 49798 [egg-security] use dta middleware
+2022-08-14 20:20:49,992 INFO 49798 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:20:50,009 INFO 49798 [egg:core] dump config after load, 8ms
+2022-08-14 20:20:50,022 INFO 49798 [egg-watcher:application] watcher start success
+2022-08-14 20:20:50,029 INFO 49798 [egg:core] dump config after ready, 5ms
+2022-08-14 20:21:00,088 INFO 49810 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:21:00,115 INFO 49810 [egg-multipart] stream mode enable
+2022-08-14 20:21:00,236 INFO 49810 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:21:00,238 INFO 49810 [egg-security] use methodnoallow middleware
+2022-08-14 20:21:00,238 INFO 49810 [egg-security] use noopen middleware
+2022-08-14 20:21:00,239 INFO 49810 [egg-security] use nosniff middleware
+2022-08-14 20:21:00,240 INFO 49810 [egg-security] use xssProtection middleware
+2022-08-14 20:21:00,241 INFO 49810 [egg-security] use xframe middleware
+2022-08-14 20:21:00,241 INFO 49810 [egg-security] use dta middleware
+2022-08-14 20:21:00,241 INFO 49810 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:21:00,251 INFO 49810 [egg:core] dump config after load, 4ms
+2022-08-14 20:21:00,258 INFO 49810 [egg-watcher:application] watcher start success
+2022-08-14 20:21:00,263 INFO 49810 [egg:core] dump config after ready, 4ms
+2022-08-14 20:21:02,053 INFO 49819 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:21:02,076 INFO 49819 [egg-multipart] stream mode enable
+2022-08-14 20:21:02,152 INFO 49819 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:21:02,155 INFO 49819 [egg-security] use methodnoallow middleware
+2022-08-14 20:21:02,155 INFO 49819 [egg-security] use noopen middleware
+2022-08-14 20:21:02,156 INFO 49819 [egg-security] use nosniff middleware
+2022-08-14 20:21:02,156 INFO 49819 [egg-security] use xssProtection middleware
+2022-08-14 20:21:02,157 INFO 49819 [egg-security] use xframe middleware
+2022-08-14 20:21:02,157 INFO 49819 [egg-security] use dta middleware
+2022-08-14 20:21:02,157 INFO 49819 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:21:02,170 INFO 49819 [egg:core] dump config after load, 5ms
+2022-08-14 20:21:02,179 INFO 49819 [egg-watcher:application] watcher start success
+2022-08-14 20:21:02,185 INFO 49819 [egg:core] dump config after ready, 4ms
+2022-08-14 20:21:03,030 INFO 49822 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:21:03,049 INFO 49822 [egg-multipart] stream mode enable
+2022-08-14 20:21:03,120 INFO 49822 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:21:03,122 INFO 49822 [egg-security] use methodnoallow middleware
+2022-08-14 20:21:03,122 INFO 49822 [egg-security] use noopen middleware
+2022-08-14 20:21:03,123 INFO 49822 [egg-security] use nosniff middleware
+2022-08-14 20:21:03,124 INFO 49822 [egg-security] use xssProtection middleware
+2022-08-14 20:21:03,124 INFO 49822 [egg-security] use xframe middleware
+2022-08-14 20:21:03,125 INFO 49822 [egg-security] use dta middleware
+2022-08-14 20:21:03,125 INFO 49822 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:21:03,134 INFO 49822 [egg:core] dump config after load, 4ms
+2022-08-14 20:21:03,143 INFO 49822 [egg-watcher:application] watcher start success
+2022-08-14 20:21:03,149 INFO 49822 [egg:core] dump config after ready, 5ms
+2022-08-14 20:25:53,693 INFO 50147 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:25:53,717 INFO 50147 [egg-multipart] stream mode enable
+2022-08-14 20:25:53,800 INFO 50147 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:25:53,802 INFO 50147 [egg-security] use methodnoallow middleware
+2022-08-14 20:25:53,803 INFO 50147 [egg-security] use noopen middleware
+2022-08-14 20:25:53,804 INFO 50147 [egg-security] use nosniff middleware
+2022-08-14 20:25:53,805 INFO 50147 [egg-security] use xssProtection middleware
+2022-08-14 20:25:53,806 INFO 50147 [egg-security] use xframe middleware
+2022-08-14 20:25:53,806 INFO 50147 [egg-security] use dta middleware
+2022-08-14 20:25:53,806 INFO 50147 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:25:53,817 INFO 50147 [egg:core] dump config after load, 4ms
+2022-08-14 20:25:53,830 INFO 50147 [egg-watcher:application] watcher start success
+2022-08-14 20:25:53,838 INFO 50147 [egg:core] dump config after ready, 6ms
+2022-08-14 20:26:04,834 INFO 50161 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:26:04,858 INFO 50161 [egg-multipart] stream mode enable
+2022-08-14 20:26:04,956 INFO 50161 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:26:04,958 INFO 50161 [egg-security] use methodnoallow middleware
+2022-08-14 20:26:04,959 INFO 50161 [egg-security] use noopen middleware
+2022-08-14 20:26:04,960 INFO 50161 [egg-security] use nosniff middleware
+2022-08-14 20:26:04,962 INFO 50161 [egg-security] use xssProtection middleware
+2022-08-14 20:26:04,963 INFO 50161 [egg-security] use xframe middleware
+2022-08-14 20:26:04,964 INFO 50161 [egg-security] use dta middleware
+2022-08-14 20:26:04,967 INFO 50161 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:26:05,017 INFO 50161 [egg:core] dump config after load, 36ms
+2022-08-14 20:26:05,141 INFO 50161 [egg-watcher:application] watcher start success
+2022-08-14 20:26:05,154 INFO 50161 [egg:core] dump config after ready, 9ms
+2022-08-14 20:26:11,776 INFO 50175 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:26:11,804 INFO 50175 [egg-multipart] stream mode enable
+2022-08-14 20:26:11,914 INFO 50175 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:26:11,916 INFO 50175 [egg-security] use methodnoallow middleware
+2022-08-14 20:26:11,917 INFO 50175 [egg-security] use noopen middleware
+2022-08-14 20:26:11,917 INFO 50175 [egg-security] use nosniff middleware
+2022-08-14 20:26:11,919 INFO 50175 [egg-security] use xssProtection middleware
+2022-08-14 20:26:11,920 INFO 50175 [egg-security] use xframe middleware
+2022-08-14 20:26:11,920 INFO 50175 [egg-security] use dta middleware
+2022-08-14 20:26:11,920 INFO 50175 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:26:11,932 INFO 50175 [egg:core] dump config after load, 5ms
+2022-08-14 20:26:11,943 INFO 50175 [egg-watcher:application] watcher start success
+2022-08-14 20:26:11,951 INFO 50175 [egg:core] dump config after ready, 6ms
+2022-08-14 20:26:13,138 INFO 50178 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:26:13,162 INFO 50178 [egg-multipart] stream mode enable
+2022-08-14 20:26:13,252 INFO 50178 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:26:13,254 INFO 50178 [egg-security] use methodnoallow middleware
+2022-08-14 20:26:13,255 INFO 50178 [egg-security] use noopen middleware
+2022-08-14 20:26:13,256 INFO 50178 [egg-security] use nosniff middleware
+2022-08-14 20:26:13,258 INFO 50178 [egg-security] use xssProtection middleware
+2022-08-14 20:26:13,258 INFO 50178 [egg-security] use xframe middleware
+2022-08-14 20:26:13,259 INFO 50178 [egg-security] use dta middleware
+2022-08-14 20:26:13,259 INFO 50178 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:26:13,273 INFO 50178 [egg:core] dump config after load, 5ms
+2022-08-14 20:26:13,284 INFO 50178 [egg-watcher:application] watcher start success
+2022-08-14 20:26:13,292 INFO 50178 [egg:core] dump config after ready, 6ms
+2022-08-14 20:26:25,281 INFO 50191 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:26:25,307 INFO 50191 [egg-multipart] stream mode enable
+2022-08-14 20:26:25,394 INFO 50191 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:26:25,396 INFO 50191 [egg-security] use methodnoallow middleware
+2022-08-14 20:26:25,397 INFO 50191 [egg-security] use noopen middleware
+2022-08-14 20:26:25,398 INFO 50191 [egg-security] use nosniff middleware
+2022-08-14 20:26:25,398 INFO 50191 [egg-security] use xssProtection middleware
+2022-08-14 20:26:25,399 INFO 50191 [egg-security] use xframe middleware
+2022-08-14 20:26:25,400 INFO 50191 [egg-security] use dta middleware
+2022-08-14 20:26:25,400 INFO 50191 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:26:25,414 INFO 50191 [egg:core] dump config after load, 6ms
+2022-08-14 20:26:25,425 INFO 50191 [egg-watcher:application] watcher start success
+2022-08-14 20:26:25,433 INFO 50191 [egg:core] dump config after ready, 6ms
+2022-08-14 20:26:28,733 INFO 50199 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:26:28,758 INFO 50199 [egg-multipart] stream mode enable
+2022-08-14 20:26:28,845 INFO 50199 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:26:28,847 INFO 50199 [egg-security] use methodnoallow middleware
+2022-08-14 20:26:28,848 INFO 50199 [egg-security] use noopen middleware
+2022-08-14 20:26:28,848 INFO 50199 [egg-security] use nosniff middleware
+2022-08-14 20:26:28,849 INFO 50199 [egg-security] use xssProtection middleware
+2022-08-14 20:26:28,849 INFO 50199 [egg-security] use xframe middleware
+2022-08-14 20:26:28,850 INFO 50199 [egg-security] use dta middleware
+2022-08-14 20:26:28,850 INFO 50199 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:26:28,862 INFO 50199 [egg:core] dump config after load, 4ms
+2022-08-14 20:26:28,875 INFO 50199 [egg-watcher:application] watcher start success
+2022-08-14 20:26:28,888 INFO 50199 [egg:core] dump config after ready, 6ms
+2022-08-14 20:26:39,001 INFO 50206 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:26:39,031 INFO 50206 [egg-multipart] stream mode enable
+2022-08-14 20:26:39,173 INFO 50206 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:26:39,176 INFO 50206 [egg-security] use methodnoallow middleware
+2022-08-14 20:26:39,177 INFO 50206 [egg-security] use noopen middleware
+2022-08-14 20:26:39,177 INFO 50206 [egg-security] use nosniff middleware
+2022-08-14 20:26:39,178 INFO 50206 [egg-security] use xssProtection middleware
+2022-08-14 20:26:39,178 INFO 50206 [egg-security] use xframe middleware
+2022-08-14 20:26:39,179 INFO 50206 [egg-security] use dta middleware
+2022-08-14 20:26:39,179 INFO 50206 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:26:39,193 INFO 50206 [egg:core] dump config after load, 5ms
+2022-08-14 20:26:39,205 INFO 50206 [egg-watcher:application] watcher start success
+2022-08-14 20:26:39,214 INFO 50206 [egg:core] dump config after ready, 6ms
+2022-08-14 20:28:32,972 INFO 50348 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:28:32,994 INFO 50348 [egg-multipart] stream mode enable
+2022-08-14 20:28:33,069 INFO 50348 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:28:33,072 INFO 50348 [egg-security] use methodnoallow middleware
+2022-08-14 20:28:33,072 INFO 50348 [egg-security] use noopen middleware
+2022-08-14 20:28:33,073 INFO 50348 [egg-security] use nosniff middleware
+2022-08-14 20:28:33,073 INFO 50348 [egg-security] use xssProtection middleware
+2022-08-14 20:28:33,075 INFO 50348 [egg-security] use xframe middleware
+2022-08-14 20:28:33,075 INFO 50348 [egg-security] use dta middleware
+2022-08-14 20:28:33,075 INFO 50348 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:28:33,085 INFO 50348 [egg:core] dump config after load, 4ms
+2022-08-14 20:28:33,097 INFO 50348 [egg-watcher:application] watcher start success
+2022-08-14 20:28:33,104 INFO 50348 [egg:core] dump config after ready, 4ms
+2022-08-14 20:28:43,686 INFO 50359 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:28:43,736 INFO 50359 [egg-multipart] stream mode enable
+2022-08-14 20:28:43,817 INFO 50359 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:28:43,819 INFO 50359 [egg-security] use methodnoallow middleware
+2022-08-14 20:28:43,820 INFO 50359 [egg-security] use noopen middleware
+2022-08-14 20:28:43,821 INFO 50359 [egg-security] use nosniff middleware
+2022-08-14 20:28:43,821 INFO 50359 [egg-security] use xssProtection middleware
+2022-08-14 20:28:43,821 INFO 50359 [egg-security] use xframe middleware
+2022-08-14 20:28:43,822 INFO 50359 [egg-security] use dta middleware
+2022-08-14 20:28:43,822 INFO 50359 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:28:43,833 INFO 50359 [egg:core] dump config after load, 4ms
+2022-08-14 20:28:43,842 INFO 50359 [egg-watcher:application] watcher start success
+2022-08-14 20:28:43,849 INFO 50359 [egg:core] dump config after ready, 5ms
+2022-08-14 20:29:26,675 INFO 50385 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:29:26,699 INFO 50385 [egg-multipart] stream mode enable
+2022-08-14 20:29:26,777 INFO 50385 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:29:26,779 INFO 50385 [egg-security] use methodnoallow middleware
+2022-08-14 20:29:26,780 INFO 50385 [egg-security] use noopen middleware
+2022-08-14 20:29:26,781 INFO 50385 [egg-security] use nosniff middleware
+2022-08-14 20:29:26,782 INFO 50385 [egg-security] use xssProtection middleware
+2022-08-14 20:29:26,783 INFO 50385 [egg-security] use xframe middleware
+2022-08-14 20:29:26,783 INFO 50385 [egg-security] use dta middleware
+2022-08-14 20:29:26,783 INFO 50385 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:29:26,795 INFO 50385 [egg:core] dump config after load, 4ms
+2022-08-14 20:29:26,804 INFO 50385 [egg-watcher:application] watcher start success
+2022-08-14 20:29:26,811 INFO 50385 [egg:core] dump config after ready, 5ms
+2022-08-14 20:29:27,716 INFO 50388 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:29:27,739 INFO 50388 [egg-multipart] stream mode enable
+2022-08-14 20:29:27,815 INFO 50388 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:29:27,817 INFO 50388 [egg-security] use methodnoallow middleware
+2022-08-14 20:29:27,818 INFO 50388 [egg-security] use noopen middleware
+2022-08-14 20:29:27,818 INFO 50388 [egg-security] use nosniff middleware
+2022-08-14 20:29:27,818 INFO 50388 [egg-security] use xssProtection middleware
+2022-08-14 20:29:27,819 INFO 50388 [egg-security] use xframe middleware
+2022-08-14 20:29:27,819 INFO 50388 [egg-security] use dta middleware
+2022-08-14 20:29:27,819 INFO 50388 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:29:27,832 INFO 50388 [egg:core] dump config after load, 5ms
+2022-08-14 20:29:27,842 INFO 50388 [egg-watcher:application] watcher start success
+2022-08-14 20:29:27,849 INFO 50388 [egg:core] dump config after ready, 6ms
+2022-08-14 20:29:39,652 INFO 50399 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:29:39,677 INFO 50399 [egg-multipart] stream mode enable
+2022-08-14 20:29:39,756 INFO 50399 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:29:39,758 INFO 50399 [egg-security] use methodnoallow middleware
+2022-08-14 20:29:39,759 INFO 50399 [egg-security] use noopen middleware
+2022-08-14 20:29:39,759 INFO 50399 [egg-security] use nosniff middleware
+2022-08-14 20:29:39,761 INFO 50399 [egg-security] use xssProtection middleware
+2022-08-14 20:29:39,762 INFO 50399 [egg-security] use xframe middleware
+2022-08-14 20:29:39,762 INFO 50399 [egg-security] use dta middleware
+2022-08-14 20:29:39,762 INFO 50399 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:29:39,774 INFO 50399 [egg:core] dump config after load, 5ms
+2022-08-14 20:29:39,785 INFO 50399 [egg-watcher:application] watcher start success
+2022-08-14 20:29:39,793 INFO 50399 [egg:core] dump config after ready, 6ms
+2022-08-14 20:29:40,654 INFO 50402 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:29:40,678 INFO 50402 [egg-multipart] stream mode enable
+2022-08-14 20:29:40,758 INFO 50402 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:29:40,760 INFO 50402 [egg-security] use methodnoallow middleware
+2022-08-14 20:29:40,760 INFO 50402 [egg-security] use noopen middleware
+2022-08-14 20:29:40,761 INFO 50402 [egg-security] use nosniff middleware
+2022-08-14 20:29:40,761 INFO 50402 [egg-security] use xssProtection middleware
+2022-08-14 20:29:40,763 INFO 50402 [egg-security] use xframe middleware
+2022-08-14 20:29:40,763 INFO 50402 [egg-security] use dta middleware
+2022-08-14 20:29:40,763 INFO 50402 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:29:40,774 INFO 50402 [egg:core] dump config after load, 4ms
+2022-08-14 20:29:40,785 INFO 50402 [egg-watcher:application] watcher start success
+2022-08-14 20:29:40,792 INFO 50402 [egg:core] dump config after ready, 5ms
+2022-08-14 20:29:57,841 INFO 50412 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:29:57,867 INFO 50412 [egg-multipart] stream mode enable
+2022-08-14 20:29:57,955 INFO 50412 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:29:57,958 INFO 50412 [egg-security] use methodnoallow middleware
+2022-08-14 20:29:57,958 INFO 50412 [egg-security] use noopen middleware
+2022-08-14 20:29:57,959 INFO 50412 [egg-security] use nosniff middleware
+2022-08-14 20:29:57,959 INFO 50412 [egg-security] use xssProtection middleware
+2022-08-14 20:29:57,961 INFO 50412 [egg-security] use xframe middleware
+2022-08-14 20:29:57,962 INFO 50412 [egg-security] use dta middleware
+2022-08-14 20:29:57,962 INFO 50412 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:29:57,974 INFO 50412 [egg:core] dump config after load, 5ms
+2022-08-14 20:29:57,985 INFO 50412 [egg-watcher:application] watcher start success
+2022-08-14 20:29:57,994 INFO 50412 [egg:core] dump config after ready, 6ms
+2022-08-14 20:29:59,160 INFO 50417 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:29:59,186 INFO 50417 [egg-multipart] stream mode enable
+2022-08-14 20:29:59,274 INFO 50417 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:29:59,277 INFO 50417 [egg-security] use methodnoallow middleware
+2022-08-14 20:29:59,278 INFO 50417 [egg-security] use noopen middleware
+2022-08-14 20:29:59,278 INFO 50417 [egg-security] use nosniff middleware
+2022-08-14 20:29:59,279 INFO 50417 [egg-security] use xssProtection middleware
+2022-08-14 20:29:59,280 INFO 50417 [egg-security] use xframe middleware
+2022-08-14 20:29:59,281 INFO 50417 [egg-security] use dta middleware
+2022-08-14 20:29:59,281 INFO 50417 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:29:59,292 INFO 50417 [egg:core] dump config after load, 4ms
+2022-08-14 20:29:59,304 INFO 50417 [egg-watcher:application] watcher start success
+2022-08-14 20:29:59,311 INFO 50417 [egg:core] dump config after ready, 5ms
+2022-08-14 20:30:56,063 INFO 50436 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:30:56,099 INFO 50436 [egg-multipart] stream mode enable
+2022-08-14 20:30:56,230 INFO 50436 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:30:56,232 INFO 50436 [egg-security] use methodnoallow middleware
+2022-08-14 20:30:56,233 INFO 50436 [egg-security] use noopen middleware
+2022-08-14 20:30:56,234 INFO 50436 [egg-security] use nosniff middleware
+2022-08-14 20:30:56,234 INFO 50436 [egg-security] use xssProtection middleware
+2022-08-14 20:30:56,235 INFO 50436 [egg-security] use xframe middleware
+2022-08-14 20:30:56,236 INFO 50436 [egg-security] use dta middleware
+2022-08-14 20:30:56,236 INFO 50436 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:30:56,248 INFO 50436 [egg:core] dump config after load, 5ms
+2022-08-14 20:30:56,258 INFO 50436 [egg-watcher:application] watcher start success
+2022-08-14 20:30:56,265 INFO 50436 [egg:core] dump config after ready, 5ms
+2022-08-14 20:30:58,131 INFO 50446 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:30:58,156 INFO 50446 [egg-multipart] stream mode enable
+2022-08-14 20:30:58,250 INFO 50446 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:30:58,254 INFO 50446 [egg-security] use methodnoallow middleware
+2022-08-14 20:30:58,254 INFO 50446 [egg-security] use noopen middleware
+2022-08-14 20:30:58,255 INFO 50446 [egg-security] use nosniff middleware
+2022-08-14 20:30:58,255 INFO 50446 [egg-security] use xssProtection middleware
+2022-08-14 20:30:58,259 INFO 50446 [egg-security] use xframe middleware
+2022-08-14 20:30:58,259 INFO 50446 [egg-security] use dta middleware
+2022-08-14 20:30:58,259 INFO 50446 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:30:58,274 INFO 50446 [egg:core] dump config after load, 4ms
+2022-08-14 20:30:58,318 INFO 50446 [egg-watcher:application] watcher start success
+2022-08-14 20:30:58,325 INFO 50446 [egg:core] dump config after ready, 5ms
+2022-08-14 20:31:03,567 INFO 50453 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:31:03,592 INFO 50453 [egg-multipart] stream mode enable
+2022-08-14 20:31:03,672 INFO 50453 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:31:03,674 INFO 50453 [egg-security] use methodnoallow middleware
+2022-08-14 20:31:03,675 INFO 50453 [egg-security] use noopen middleware
+2022-08-14 20:31:03,676 INFO 50453 [egg-security] use nosniff middleware
+2022-08-14 20:31:03,676 INFO 50453 [egg-security] use xssProtection middleware
+2022-08-14 20:31:03,676 INFO 50453 [egg-security] use xframe middleware
+2022-08-14 20:31:03,678 INFO 50453 [egg-security] use dta middleware
+2022-08-14 20:31:03,678 INFO 50453 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:31:03,690 INFO 50453 [egg:core] dump config after load, 5ms
+2022-08-14 20:31:03,700 INFO 50453 [egg-watcher:application] watcher start success
+2022-08-14 20:31:03,707 INFO 50453 [egg:core] dump config after ready, 6ms
+2022-08-14 20:31:07,820 INFO 50463 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:31:07,846 INFO 50463 [egg-multipart] stream mode enable
+2022-08-14 20:31:07,932 INFO 50463 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:31:07,934 INFO 50463 [egg-security] use methodnoallow middleware
+2022-08-14 20:31:07,935 INFO 50463 [egg-security] use noopen middleware
+2022-08-14 20:31:07,936 INFO 50463 [egg-security] use nosniff middleware
+2022-08-14 20:31:07,936 INFO 50463 [egg-security] use xssProtection middleware
+2022-08-14 20:31:07,937 INFO 50463 [egg-security] use xframe middleware
+2022-08-14 20:31:07,937 INFO 50463 [egg-security] use dta middleware
+2022-08-14 20:31:07,937 INFO 50463 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:31:07,952 INFO 50463 [egg:core] dump config after load, 6ms
+2022-08-14 20:31:07,962 INFO 50463 [egg-watcher:application] watcher start success
+2022-08-14 20:31:07,970 INFO 50463 [egg:core] dump config after ready, 6ms
+2022-08-14 20:31:31,875 INFO 50476 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:31:31,908 INFO 50476 [egg-multipart] stream mode enable
+2022-08-14 20:31:32,104 INFO 50476 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:31:32,107 INFO 50476 [egg-security] use methodnoallow middleware
+2022-08-14 20:31:32,108 INFO 50476 [egg-security] use noopen middleware
+2022-08-14 20:31:32,109 INFO 50476 [egg-security] use nosniff middleware
+2022-08-14 20:31:32,109 INFO 50476 [egg-security] use xssProtection middleware
+2022-08-14 20:31:32,110 INFO 50476 [egg-security] use xframe middleware
+2022-08-14 20:31:32,111 INFO 50476 [egg-security] use dta middleware
+2022-08-14 20:31:32,111 INFO 50476 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:31:32,123 INFO 50476 [egg:core] dump config after load, 5ms
+2022-08-14 20:31:32,133 INFO 50476 [egg-watcher:application] watcher start success
+2022-08-14 20:31:32,141 INFO 50476 [egg:core] dump config after ready, 6ms
+2022-08-14 20:31:33,979 INFO 50483 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:31:34,008 INFO 50483 [egg-multipart] stream mode enable
+2022-08-14 20:31:34,107 INFO 50483 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:31:34,110 INFO 50483 [egg-security] use methodnoallow middleware
+2022-08-14 20:31:34,111 INFO 50483 [egg-security] use noopen middleware
+2022-08-14 20:31:34,112 INFO 50483 [egg-security] use nosniff middleware
+2022-08-14 20:31:34,112 INFO 50483 [egg-security] use xssProtection middleware
+2022-08-14 20:31:34,114 INFO 50483 [egg-security] use xframe middleware
+2022-08-14 20:31:34,115 INFO 50483 [egg-security] use dta middleware
+2022-08-14 20:31:34,115 INFO 50483 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:31:34,128 INFO 50483 [egg:core] dump config after load, 5ms
+2022-08-14 20:31:34,139 INFO 50483 [egg-watcher:application] watcher start success
+2022-08-14 20:31:34,147 INFO 50483 [egg:core] dump config after ready, 6ms
+2022-08-14 20:31:35,236 INFO 50486 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:31:35,262 INFO 50486 [egg-multipart] stream mode enable
+2022-08-14 20:31:35,359 INFO 50486 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:31:35,361 INFO 50486 [egg-security] use methodnoallow middleware
+2022-08-14 20:31:35,362 INFO 50486 [egg-security] use noopen middleware
+2022-08-14 20:31:35,362 INFO 50486 [egg-security] use nosniff middleware
+2022-08-14 20:31:35,363 INFO 50486 [egg-security] use xssProtection middleware
+2022-08-14 20:31:35,363 INFO 50486 [egg-security] use xframe middleware
+2022-08-14 20:31:35,364 INFO 50486 [egg-security] use dta middleware
+2022-08-14 20:31:35,364 INFO 50486 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:31:35,377 INFO 50486 [egg:core] dump config after load, 5ms
+2022-08-14 20:31:35,387 INFO 50486 [egg-watcher:application] watcher start success
+2022-08-14 20:31:35,396 INFO 50486 [egg:core] dump config after ready, 7ms
+2022-08-14 20:31:55,346 INFO 50497 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:31:55,377 INFO 50497 [egg-multipart] stream mode enable
+2022-08-14 20:31:55,555 INFO 50497 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:31:55,559 INFO 50497 [egg-security] use methodnoallow middleware
+2022-08-14 20:31:55,562 INFO 50497 [egg-security] use noopen middleware
+2022-08-14 20:31:55,563 INFO 50497 [egg-security] use nosniff middleware
+2022-08-14 20:31:55,566 INFO 50497 [egg-security] use xssProtection middleware
+2022-08-14 20:31:55,568 INFO 50497 [egg-security] use xframe middleware
+2022-08-14 20:31:55,569 INFO 50497 [egg-security] use dta middleware
+2022-08-14 20:31:55,569 INFO 50497 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:31:55,587 INFO 50497 [egg:core] dump config after load, 6ms
+2022-08-14 20:31:55,604 INFO 50497 [egg-watcher:application] watcher start success
+2022-08-14 20:31:55,617 INFO 50497 [egg:core] dump config after ready, 10ms
+2022-08-14 20:33:36,540 INFO 50818 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:33:36,572 INFO 50818 [egg-multipart] stream mode enable
+2022-08-14 20:33:36,681 INFO 50818 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:33:36,683 INFO 50818 [egg-security] use methodnoallow middleware
+2022-08-14 20:33:36,685 INFO 50818 [egg-security] use noopen middleware
+2022-08-14 20:33:36,685 INFO 50818 [egg-security] use nosniff middleware
+2022-08-14 20:33:36,687 INFO 50818 [egg-security] use xssProtection middleware
+2022-08-14 20:33:36,689 INFO 50818 [egg-security] use xframe middleware
+2022-08-14 20:33:36,689 INFO 50818 [egg-security] use dta middleware
+2022-08-14 20:33:36,689 INFO 50818 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:33:36,702 INFO 50818 [egg:core] dump config after load, 5ms
+2022-08-14 20:33:36,714 INFO 50818 [egg-watcher:application] watcher start success
+2022-08-14 20:33:36,723 INFO 50818 [egg:core] dump config after ready, 6ms
+2022-08-14 20:33:38,494 INFO 50823 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:33:38,521 INFO 50823 [egg-multipart] stream mode enable
+2022-08-14 20:33:38,613 INFO 50823 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:33:38,615 INFO 50823 [egg-security] use methodnoallow middleware
+2022-08-14 20:33:38,616 INFO 50823 [egg-security] use noopen middleware
+2022-08-14 20:33:38,617 INFO 50823 [egg-security] use nosniff middleware
+2022-08-14 20:33:38,617 INFO 50823 [egg-security] use xssProtection middleware
+2022-08-14 20:33:38,618 INFO 50823 [egg-security] use xframe middleware
+2022-08-14 20:33:38,618 INFO 50823 [egg-security] use dta middleware
+2022-08-14 20:33:38,618 INFO 50823 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:33:38,631 INFO 50823 [egg:core] dump config after load, 5ms
+2022-08-14 20:33:38,644 INFO 50823 [egg-watcher:application] watcher start success
+2022-08-14 20:33:38,653 INFO 50823 [egg:core] dump config after ready, 6ms
+2022-08-14 20:35:52,862 INFO 50847 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:35:52,886 INFO 50847 [egg-multipart] stream mode enable
+2022-08-14 20:35:53,003 INFO 50847 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:35:53,005 INFO 50847 [egg-security] use methodnoallow middleware
+2022-08-14 20:35:53,007 INFO 50847 [egg-security] use noopen middleware
+2022-08-14 20:35:53,008 INFO 50847 [egg-security] use nosniff middleware
+2022-08-14 20:35:53,009 INFO 50847 [egg-security] use xssProtection middleware
+2022-08-14 20:35:53,010 INFO 50847 [egg-security] use xframe middleware
+2022-08-14 20:35:53,011 INFO 50847 [egg-security] use dta middleware
+2022-08-14 20:35:53,011 INFO 50847 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:35:53,021 INFO 50847 [egg:core] dump config after load, 4ms
+2022-08-14 20:35:53,030 INFO 50847 [egg-watcher:application] watcher start success
+2022-08-14 20:35:53,037 INFO 50847 [egg:core] dump config after ready, 5ms
+2022-08-14 20:37:21,489 INFO 50885 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:37:21,588 INFO 50885 [egg-multipart] stream mode enable
+2022-08-14 20:37:21,732 INFO 50885 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:37:21,735 INFO 50885 [egg-security] use methodnoallow middleware
+2022-08-14 20:37:21,736 INFO 50885 [egg-security] use noopen middleware
+2022-08-14 20:37:21,737 INFO 50885 [egg-security] use nosniff middleware
+2022-08-14 20:37:21,738 INFO 50885 [egg-security] use xssProtection middleware
+2022-08-14 20:37:21,738 INFO 50885 [egg-security] use xframe middleware
+2022-08-14 20:37:21,740 INFO 50885 [egg-security] use dta middleware
+2022-08-14 20:37:21,740 INFO 50885 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:37:21,757 INFO 50885 [egg:core] dump config after load, 4ms
+2022-08-14 20:37:21,770 INFO 50885 [egg-watcher:application] watcher start success
+2022-08-14 20:37:21,778 INFO 50885 [egg:core] dump config after ready, 6ms
+2022-08-14 20:37:22,815 INFO 50890 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:37:22,841 INFO 50890 [egg-multipart] stream mode enable
+2022-08-14 20:37:22,925 INFO 50890 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:37:22,927 INFO 50890 [egg-security] use methodnoallow middleware
+2022-08-14 20:37:22,928 INFO 50890 [egg-security] use noopen middleware
+2022-08-14 20:37:22,929 INFO 50890 [egg-security] use nosniff middleware
+2022-08-14 20:37:22,929 INFO 50890 [egg-security] use xssProtection middleware
+2022-08-14 20:37:22,930 INFO 50890 [egg-security] use xframe middleware
+2022-08-14 20:37:22,930 INFO 50890 [egg-security] use dta middleware
+2022-08-14 20:37:22,930 INFO 50890 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:37:22,945 INFO 50890 [egg:core] dump config after load, 6ms
+2022-08-14 20:37:22,958 INFO 50890 [egg-watcher:application] watcher start success
+2022-08-14 20:37:22,967 INFO 50890 [egg:core] dump config after ready, 6ms
+2022-08-14 20:37:44,310 INFO 50901 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:37:44,506 INFO 50901 [egg-multipart] stream mode enable
+2022-08-14 20:37:44,840 INFO 50901 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:37:44,844 INFO 50901 [egg-security] use methodnoallow middleware
+2022-08-14 20:37:44,845 INFO 50901 [egg-security] use noopen middleware
+2022-08-14 20:37:44,847 INFO 50901 [egg-security] use nosniff middleware
+2022-08-14 20:37:44,848 INFO 50901 [egg-security] use xssProtection middleware
+2022-08-14 20:37:44,849 INFO 50901 [egg-security] use xframe middleware
+2022-08-14 20:37:44,850 INFO 50901 [egg-security] use dta middleware
+2022-08-14 20:37:44,850 INFO 50901 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:37:44,874 INFO 50901 [egg:core] dump config after load, 7ms
+2022-08-14 20:37:44,921 INFO 50901 [egg-watcher:application] watcher start success
+2022-08-14 20:37:44,960 INFO 50901 [egg:core] dump config after ready, 28ms
+2022-08-14 20:37:46,464 INFO 50908 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:37:46,496 INFO 50908 [egg-multipart] stream mode enable
+2022-08-14 20:37:46,609 INFO 50908 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:37:46,613 INFO 50908 [egg-security] use methodnoallow middleware
+2022-08-14 20:37:46,614 INFO 50908 [egg-security] use noopen middleware
+2022-08-14 20:37:46,615 INFO 50908 [egg-security] use nosniff middleware
+2022-08-14 20:37:46,616 INFO 50908 [egg-security] use xssProtection middleware
+2022-08-14 20:37:46,617 INFO 50908 [egg-security] use xframe middleware
+2022-08-14 20:37:46,617 INFO 50908 [egg-security] use dta middleware
+2022-08-14 20:37:46,618 INFO 50908 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:37:46,635 INFO 50908 [egg:core] dump config after load, 8ms
+2022-08-14 20:37:46,650 INFO 50908 [egg-watcher:application] watcher start success
+2022-08-14 20:37:46,662 INFO 50908 [egg:core] dump config after ready, 7ms
+2022-08-14 20:39:21,240 INFO 51053 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:39:21,268 INFO 51053 [egg-multipart] stream mode enable
+2022-08-14 20:39:21,361 INFO 51053 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:39:21,363 INFO 51053 [egg-security] use methodnoallow middleware
+2022-08-14 20:39:21,364 INFO 51053 [egg-security] use noopen middleware
+2022-08-14 20:39:21,365 INFO 51053 [egg-security] use nosniff middleware
+2022-08-14 20:39:21,365 INFO 51053 [egg-security] use xssProtection middleware
+2022-08-14 20:39:21,366 INFO 51053 [egg-security] use xframe middleware
+2022-08-14 20:39:21,366 INFO 51053 [egg-security] use dta middleware
+2022-08-14 20:39:21,366 INFO 51053 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:39:21,381 INFO 51053 [egg:core] dump config after load, 5ms
+2022-08-14 20:39:21,392 INFO 51053 [egg-watcher:application] watcher start success
+2022-08-14 20:39:21,400 INFO 51053 [egg:core] dump config after ready, 6ms
+2022-08-14 20:39:27,889 INFO 51063 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/test/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-14 20:39:27,915 INFO 51063 [egg-multipart] stream mode enable
+2022-08-14 20:39:28,032 INFO 51063 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/test/monitor-server/app/public
+2022-08-14 20:39:28,035 INFO 51063 [egg-security] use methodnoallow middleware
+2022-08-14 20:39:28,036 INFO 51063 [egg-security] use noopen middleware
+2022-08-14 20:39:28,037 INFO 51063 [egg-security] use nosniff middleware
+2022-08-14 20:39:28,038 INFO 51063 [egg-security] use xssProtection middleware
+2022-08-14 20:39:28,039 INFO 51063 [egg-security] use xframe middleware
+2022-08-14 20:39:28,039 INFO 51063 [egg-security] use dta middleware
+2022-08-14 20:39:28,040 INFO 51063 [egg-security] compose 6 middlewares into one security middleware
+2022-08-14 20:39:28,108 INFO 51063 [egg:core] dump config after load, 59ms
+2022-08-14 20:39:28,180 INFO 51063 [egg-watcher:application] watcher start success
+2022-08-14 20:39:28,189 INFO 51063 [egg:core] dump config after ready, 7ms
+2022-08-15 16:49:06,627 INFO 6943 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/monitor/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-15 16:49:06,813 INFO 6943 [egg-multipart] stream mode enable
+2022-08-15 16:49:07,342 INFO 6943 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/monitor/monitor-server/app/public
+2022-08-15 16:49:07,349 INFO 6943 [egg-security] use methodnoallow middleware
+2022-08-15 16:49:07,354 INFO 6943 [egg-security] use noopen middleware
+2022-08-15 16:49:07,358 INFO 6943 [egg-security] use nosniff middleware
+2022-08-15 16:49:07,360 INFO 6943 [egg-security] use xssProtection middleware
+2022-08-15 16:49:07,362 INFO 6943 [egg-security] use xframe middleware
+2022-08-15 16:49:07,363 INFO 6943 [egg-security] use dta middleware
+2022-08-15 16:49:07,363 INFO 6943 [egg-security] compose 6 middlewares into one security middleware
+2022-08-15 16:49:07,451 INFO 6943 [egg:core] dump config after load, 69ms
+2022-08-15 16:49:07,507 INFO 6943 [egg-watcher:application] watcher start success
+2022-08-15 16:49:07,543 INFO 6943 [egg:core] dump config after ready, 29ms
+2022-08-15 17:33:18,484 INFO 7834 [egg:logger] init all loggers with options: {"dir":"/Users/yining.zhao/Desktop/monitor/monitor-server/logs/monitor-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"monitor-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-15 17:33:18,516 INFO 7834 [egg-multipart] stream mode enable
+2022-08-15 17:33:18,516 INFO 7834 [egg-mysql] connecting monitor@139.198.176.106:3306/monitor
+2022-08-15 17:33:18,812 INFO 7834 [egg-static] starting static serve /public/ -> /Users/yining.zhao/Desktop/monitor/monitor-server/app/public
+2022-08-15 17:33:18,816 INFO 7834 [egg-security] use methodnoallow middleware
+2022-08-15 17:33:18,817 INFO 7834 [egg-security] use noopen middleware
+2022-08-15 17:33:18,819 INFO 7834 [egg-security] use nosniff middleware
+2022-08-15 17:33:18,820 INFO 7834 [egg-security] use xssProtection middleware
+2022-08-15 17:33:18,822 INFO 7834 [egg-security] use xframe middleware
+2022-08-15 17:33:18,822 INFO 7834 [egg-security] use dta middleware
+2022-08-15 17:33:18,823 INFO 7834 [egg-security] compose 6 middlewares into one security middleware
+2022-08-15 17:33:18,839 INFO 7834 [egg:core] dump config after load, 7ms
+2022-08-15 17:33:18,870 INFO 7834 [egg:core] dump config after ready, 7ms
+2022-08-15 17:33:18,873 INFO 7834 [egg-watcher:application] watcher start success
