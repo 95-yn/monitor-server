@@ -1,5 +1,552 @@
-2022-08-15 17:33:18,859 ERROR 7834 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNRESETError: read ECONNRESET
-    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+2022-08-17 08:33:25,268 ERROR 89974 nodejs.ClusterClientNoResponseError: client no response in 4318255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 89974
+hostname: zhaoyining-mac.local
+
+2022-08-17 09:15:04,922 ERROR 89974 nodejs.ClusterClientNoResponseError: client no response in 2319813ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 89974
+hostname: zhaoyining-mac.local
+
+2022-08-17 10:26:16,506 ERROR 89974 nodejs.ClusterClientNoResponseError: client no response in 4271572ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 89974
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:17:03,485 ERROR 78162 [-/127.0.0.1/-/8ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660706223399] nodejs.ReferenceError: current is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:62:19)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78162
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:17:16,428 ERROR 78203 [-/127.0.0.1/-/7ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660706236244] nodejs.ReferenceError: current is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:62:19)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78203
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:30:11,510 ERROR 78644 [-/127.0.0.1/-/9ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707011381] nodejs.TypeError: Cannot read property 'User' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:65:39)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78644
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:30:33,654 ERROR 78670 [-/127.0.0.1/-/15ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707033579] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:65:51)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78670
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:30:42,732 ERROR 78682 [-/127.0.0.1/-/9ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707042685] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:65:51)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78682
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:32:15,787 ERROR 78790 [-/127.0.0.1/-/7ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707135747] nodejs.TypeError: Cannot read property 'find' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:65:51)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78790
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:32:16,531 ERROR 78790 [-/127.0.0.1/-/1ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707136498] nodejs.TypeError: Cannot read property 'find' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:65:51)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78790
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:32:41,926 ERROR 78821 [-/127.0.0.1/-/10ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707161875] nodejs.ReferenceError: like is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:68:12)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78821
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:32:42,996 ERROR 78821 [-/127.0.0.1/-/1ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707162967] nodejs.ReferenceError: like is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:68:12)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78821
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:33:01,038 ERROR 78850 [-/127.0.0.1/-/9ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707180981] nodejs.TypeError: this.app.mysql.findAll is not a function
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:65:39)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78850
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:33:03,421 ERROR 78853 [-/127.0.0.1/-/10ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707183372] nodejs.TypeError: this.app.mysql.findAll is not a function
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:65:39)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78853
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:33:20,158 ERROR 78882 [-/127.0.0.1/-/61ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660707200056] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'performance' at line 1
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: performance
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'performance' at line 1"
+sqlState: "42000"
+index: 0
+sql: "performance"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 78882
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:35:00,798 ERROR 78932 [-/127.0.0.1/-/7ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=3&_t=1660707300646] nodejs.ReferenceError: like is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:68:12)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78932
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:37:20,685 ERROR 78986 [-/127.0.0.1/-/8ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=3&_t=1660707440644] nodejs.ReferenceError: like is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:68:12)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 78986
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:38:34,353 ERROR 79104 [-/127.0.0.1/-/62ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=3&_t=1660707514244] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `values` IN () LIMIT 20, 10
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `values` IN () LIMIT 20, 10"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 79104
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:38:58,919 ERROR 79141 [-/127.0.0.1/-/47ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=3&_t=1660707538769] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 79141
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:38:59,169 ERROR 79141 [-/127.0.0.1/-/57ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=3&_t=1660707539075] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 79141
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:39:00,368 ERROR 79141 [-/127.0.0.1/-/38ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=3&_t=1660707540299] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 79141
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:39:38,828 ERROR 79157 [-/127.0.0.1/-/61ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=3&_t=1660707578692] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 79157
+hostname: zhaoyining-mac.local
+
+2022-08-17 11:39:39,415 ERROR 79157 [-/127.0.0.1/-/43ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=3&_t=1660707579344] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 20, 10' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `sql` = 'select * from performance' AND `content` IN () LIMIT 20, 10"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 79157
+hostname: zhaoyining-mac.local
+
+2022-08-17 12:23:33,191 ERROR 43939 nodejs.ClusterClientNoResponseError: client no response in 1807961ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43939
+hostname: zhaoyining-mac.local
+
+2022-08-17 12:46:57,654 ERROR 43939 nodejs.ClusterClientNoResponseError: client no response in 1084038ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43939
+hostname: zhaoyining-mac.local
+
+2022-08-17 13:15:35,618 ERROR 43939 nodejs.ClusterClientNoResponseError: client no response in 811953ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43939
+hostname: zhaoyining-mac.local
+
+2022-08-17 13:31:24,135 ERROR 43939 nodejs.ClusterClientNoResponseError: client no response in 828436ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43939
+hostname: zhaoyining-mac.local
+
+2022-08-17 13:47:47,813 ERROR 43939 nodejs.ClusterClientNoResponseError: client no response in 943397ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43939
+hostname: zhaoyining-mac.local
+
+2022-08-17 13:50:14,979 ERROR 43939 nodejs.ClusterClientNoResponseError: client no response in 106462ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43939
+hostname: zhaoyining-mac.local
+
+2022-08-17 13:59:26,528 ERROR 43939 nodejs.ClusterClientNoResponseError: client no response in 511526ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 43939
+hostname: zhaoyining-mac.local
+
+2022-08-17 14:03:46,781 ERROR 81194 [-/127.0.0.1/-/77ms GET /performance/getList?name=xiaoMa&address=&pageSize=10&page=1&_t=1660716226628] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.select * from performance limit ?,?' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT COUNT(*) as count FROM `select * from performance limit ?,?` WHERE `0` = 0 AND `1` = 10
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.select * from performance limit ?,?' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT COUNT(*) as count FROM `select * from performance limit ?,?` WHERE `0` = 0 AND `1` = 10"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 81194
+hostname: zhaoyining-mac.local
+
+2022-08-17 14:20:12,597 ERROR 81827 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
     --------------------
     at Protocol._enqueue (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
     at Protocol.handshake (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
@@ -12,11 +559,85 @@
     at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:202:8)
     at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
     sql: select now() as currentTime;
-errno: -54
-code: "ECONNRESET"
-syscall: "read"
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
 fatal: true
-name: "ECONNRESETError"
-pid: 7834
+name: "ECONNREFUSEDError"
+pid: 81827
+hostname: zhaoyining-mac.local
+
+2022-08-17 14:21:34,580 ERROR 81872 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+    --------------------
+    at Protocol._enqueue (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 81872
+hostname: zhaoyining-mac.local
+
+2022-08-17 14:21:53,392 ERROR 81926 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+    --------------------
+    at Protocol._enqueue (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 81926
+hostname: zhaoyining-mac.local
+
+2022-08-17 14:23:10,816 ERROR 81976 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+    --------------------
+    at Protocol._enqueue (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 27017
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 81976
 hostname: zhaoyining-mac.local
 

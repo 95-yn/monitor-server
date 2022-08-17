@@ -5,21 +5,17 @@ const Controller = require('egg').Controller;
 class PerformanceController extends Controller {
   async upload() {
     const { ctx } = this;
-    console.log(ctx.request.body);
-    // ctx.body = 'ok';
-    // const params = ctx.request.body;
-    // const res = {
-    //   msg: 'ok',
-    //   data: {
-    //     id: '3',
-    //     username: params.username,
-    //     nickname: params.nickname,
-    //     sex: params.sex,
-    //     ...params,
-    //   },
-    // };
-    ctx.body = 'ok';
+    const result = await this.ctx.service.performance.upload(ctx.request.body);
+    ctx.body = result;
   }
+
+  async getList() {
+    const { ctx } = this;
+    console.log(ctx.request);
+    const result = await this.ctx.service.performance.getList(ctx.request.query);
+    ctx.body = result;
+  }
+
 }
 
 module.exports = PerformanceController;

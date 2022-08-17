@@ -2,12 +2,11 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
-    "path": "/",
-    "regexp": "/^(?:\\/(?=$))?$/",
+    "path": "/performance/upload",
+    "regexp": "/^\\/performance\\/upload(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -15,11 +14,12 @@
   {
     "name": null,
     "methods": [
-      "POST"
+      "HEAD",
+      "GET"
     ],
     "paramNames": [],
-    "path": "/performance/upload",
-    "regexp": "/^\\/performance\\/upload(?:\\/(?=$))?$/",
+    "path": "/performance/getList",
+    "regexp": "/^\\/performance\\/getList(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

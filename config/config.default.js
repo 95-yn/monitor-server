@@ -5,6 +5,10 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
+require('dotenv').config('../.env')
+console.log(process)
+const { DB_HOST, DB_NAME, DB_PORT, DB_USER, DB_PWD } = process.env
+
 module.exports = appInfo => {
   /**
    * built-in config
@@ -36,15 +40,15 @@ module.exports = appInfo => {
     // 单数据库信息配置
     client: {
       // host
-      host: '139.198.176.106',
+      host: DB_HOST,
       // 端口号
-      port: '3306',
+      port: DB_PORT,
       // 用户名
-      user: 'monitor',
+      user: DB_USER,
       // 密码
-      password: '6iZrdh2ZYFTtSMP2',
+      password: DB_PWD,
       // 数据库名
-      database: 'monitor',
+      database: DB_NAME,
     },
     // 是否加载到 app 上，默认开启
     app: true,

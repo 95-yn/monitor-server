@@ -209,7 +209,7 @@
       "client": {
         "host": "139.198.176.106",
         "port": "3306",
-        "user": "monitor",
+        "user": "root",
         "password": "<String len: 16>",
         "database": "monitor"
       }
@@ -233,6 +233,7 @@
         "declarations": true
       },
       "dependencies": {
+        "dotenv": "^16.0.1",
         "egg": "^2",
         "egg-cors": "^2.2.3",
         "egg-mysql": "^3.1.1",
@@ -579,6 +580,7 @@
         "declarations": true
       },
       "dependencies": {
+        "dotenv": "^16.0.1",
         "egg": "^2",
         "egg-cors": "^2.2.3",
         "egg-mysql": "^3.1.1",

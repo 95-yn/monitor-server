@@ -188,6 +188,7 @@
       "declarations": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
+      "dotenv": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
       "egg": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
       "egg-cors": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg/config/config.default.js",

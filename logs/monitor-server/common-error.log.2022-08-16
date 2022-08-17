@@ -1,0 +1,976 @@
+2022-08-15 17:33:18,859 ERROR 7834 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+    --------------------
+    at Protocol._enqueue (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+fatal: true
+name: "ECONNRESETError"
+pid: 7834
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:05:10,254 ERROR 89975 [-/127.0.0.1/-/38ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`, `time`, `globalData`, `title`, `url`, `prevUrl`) VALUES(0, 0, 8, 1549, 1590, 1600, 39, 1590, 1589, 39, 7, 'navigate', 1660644310201, '{\"_deviceInfo\":{\"mobile\":null,\"phone\":null,\"tablet\":null,\"userAgent\":null,\"isPhone\":false,\"isRobot\":false,\"version\":537.36,\"versionStr\":null,\"dpr\":2,\"contentWidth\":1792,\"contentHeight\":865,\"screenWidth\":1792,\"screenHeight\":1120},\"_networkType\":\"4g\",\"_locale\":\"en\",\"_userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\",\"_sdkVersion\":\"1.0.0\",\"_env\":\"dev\"}', '', 'http://127.0.0.1:5500/example/index.html', '')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`, `time`, `globalData`, `title`, `url`, `prevUrl`) VALUES(0, 0, 8, 1549, 1590, 1600, 39, 1590, 1589, 39, 7, 'navigate', 1660644310201, '{\\\"_deviceInfo\\\":{\\\"mobile\\\":null,\\\"phone\\\":null,\\\"tablet\\\":null,\\\"userAgent\\\":null,\\\"isPhone\\\":false,\\\"isRobot\\\":false,\\\"version\\\":537.36,\\\"versionStr\\\":null,\\\"dpr\\\":2,\\\"contentWidth\\\":1792,\\\"contentHeight\\\":865,\\\"screenWidth\\\":1792,\\\"screenHeight\\\":1120},\\\"_networkType\\\":\\\"4g\\\",\\\"_locale\\\":\\\"en\\\",\\\"_userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\\\",\\\"_sdkVersion\\\":\\\"1.0.0\\\",\\\"_env\\\":\\\"dev\\\"}', '', 'http://127.0.0.1:5500/example/index.html', '')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 89975
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:06:02,155 ERROR 90146 [-/127.0.0.1/-/49ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`, `time`, `globalData`, `title`, `url`, `prevUrl`) VALUES(0, 0, 31, 227, 267, 281, 40, 268, 267, 40, 31, 'reload', 1660644362094, '{\"_deviceInfo\":{\"mobile\":null,\"phone\":null,\"tablet\":null,\"userAgent\":null,\"isPhone\":false,\"isRobot\":false,\"version\":537.36,\"versionStr\":null,\"dpr\":2,\"contentWidth\":1186,\"contentHeight\":865,\"screenWidth\":1792,\"screenHeight\":1120},\"_networkType\":\"4g\",\"_locale\":\"en\",\"_userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\",\"_sdkVersion\":\"1.0.0\",\"_env\":\"dev\"}', '', 'http://127.0.0.1:5500/example/index.html', '')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`, `time`, `globalData`, `title`, `url`, `prevUrl`) VALUES(0, 0, 31, 227, 267, 281, 40, 268, 267, 40, 31, 'reload', 1660644362094, '{\\\"_deviceInfo\\\":{\\\"mobile\\\":null,\\\"phone\\\":null,\\\"tablet\\\":null,\\\"userAgent\\\":null,\\\"isPhone\\\":false,\\\"isRobot\\\":false,\\\"version\\\":537.36,\\\"versionStr\\\":null,\\\"dpr\\\":2,\\\"contentWidth\\\":1186,\\\"contentHeight\\\":865,\\\"screenWidth\\\":1792,\\\"screenHeight\\\":1120},\\\"_networkType\\\":\\\"4g\\\",\\\"_locale\\\":\\\"en\\\",\\\"_userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\\\",\\\"_sdkVersion\\\":\\\"1.0.0\\\",\\\"_env\\\":\\\"dev\\\"}', '', 'http://127.0.0.1:5500/example/index.html', '')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 90146
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:08:15,333 ERROR 90209 [-/127.0.0.1/-/22ms POST /performance/upload] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at PerformanceService.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:8:68)
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:52)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90209
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:09:36,806 ERROR 90268 [-/127.0.0.1/-/23ms POST /performance/upload] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at PerformanceService.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:7:22)
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:52)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90268
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:10:27,112 ERROR 90291 [-/127.0.0.1/-/77ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`url`) VALUES('xxx')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`url`) VALUES('xxx')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 90291
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:11:41,962 ERROR 90327 [-/127.0.0.1/-/73ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`url`) VALUES('xxx')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`url`) VALUES('xxx')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 90327
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:17:46,395 ERROR 90576 [-/127.0.0.1/-/18ms POST /performance/upload] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as insert] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:30:15)
+    at PerformanceService.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:9:41)
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:52)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90576
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:18:34,696 ERROR 90616 [-/127.0.0.1/-/22ms POST /performance/upload] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as insert] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:30:15)
+    at PerformanceService.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:9:41)
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:52)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90616
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:18:35,369 ERROR 90616 [-/127.0.0.1/-/1ms POST /performance/upload] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as insert] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:30:15)
+    at PerformanceService.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:9:41)
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:52)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90616
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:20:19,787 ERROR 90770 [-/127.0.0.1/-/32ms POST /performance/upload] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:45)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90770
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:20:32,350 ERROR 90796 [-/127.0.0.1/-/20ms POST /performance/upload] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:45)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90796
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:20:39,327 ERROR 90805 [-/127.0.0.1/-/17ms POST /performance/upload] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:45)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90805
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:21:43,166 ERROR 90833 [-/127.0.0.1/-/51ms POST /performance/upload] nodejs.TypeError: this.ctx.service.performance.insert is not a function
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:52)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90833
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:22:38,528 ERROR 90871 [-/127.0.0.1/-/18ms POST /performance/upload] nodejs.TypeError: this.ctx.service.insert is not a function
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:40)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 90871
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:23:10,630 ERROR 90921 [-/127.0.0.1/-/65ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`, `time`, `globalData`, `title`, `url`, `prevUrl`) VALUES(0, 0, 18, 297, 329, 355, 30, 329, 328, 30, 17, 'reload', 1660645390544, '{\"_deviceInfo\":{\"mobile\":null,\"phone\":null,\"tablet\":null,\"userAgent\":null,\"isPhone\":false,\"isRobot\":false,\"version\":537.36,\"versionStr\":null,\"dpr\":2,\"contentWidth\":1186,\"contentHeight\":865,\"screenWidth\":1792,\"screenHeight\":1120},\"_networkType\":\"4g\",\"_locale\":\"en\",\"_userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\",\"_sdkVersion\":\"1.0.0\",\"_env\":\"dev\"}', '', 'http://127.0.0.1:5500/example/index.html', '')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`, `time`, `globalData`, `title`, `url`, `prevUrl`) VALUES(0, 0, 18, 297, 329, 355, 30, 329, 328, 30, 17, 'reload', 1660645390544, '{\\\"_deviceInfo\\\":{\\\"mobile\\\":null,\\\"phone\\\":null,\\\"tablet\\\":null,\\\"userAgent\\\":null,\\\"isPhone\\\":false,\\\"isRobot\\\":false,\\\"version\\\":537.36,\\\"versionStr\\\":null,\\\"dpr\\\":2,\\\"contentWidth\\\":1186,\\\"contentHeight\\\":865,\\\"screenWidth\\\":1792,\\\"screenHeight\\\":1120},\\\"_networkType\\\":\\\"4g\\\",\\\"_locale\\\":\\\"en\\\",\\\"_userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\\\",\\\"_sdkVersion\\\":\\\"1.0.0\\\",\\\"_env\\\":\\\"dev\\\"}', '', 'http://127.0.0.1:5500/example/index.html', '')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 90921
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:23:17,723 ERROR 90934 [-/127.0.0.1/-/103ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`, `time`, `globalData`, `title`, `url`, `prevUrl`) VALUES(0, 0, 23, 169, 199, 212, 29, 199, 198, 29, 23, 'reload', 1660645397439, '{\"_deviceInfo\":{\"mobile\":null,\"phone\":null,\"tablet\":null,\"userAgent\":null,\"isPhone\":false,\"isRobot\":false,\"version\":537.36,\"versionStr\":null,\"dpr\":2,\"contentWidth\":1186,\"contentHeight\":865,\"screenWidth\":1792,\"screenHeight\":1120},\"_networkType\":\"4g\",\"_locale\":\"en\",\"_userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\",\"_sdkVersion\":\"1.0.0\",\"_env\":\"dev\"}', '', 'http://127.0.0.1:5500/example/index.html', '')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`, `time`, `globalData`, `title`, `url`, `prevUrl`) VALUES(0, 0, 23, 169, 199, 212, 29, 199, 198, 29, 23, 'reload', 1660645397439, '{\\\"_deviceInfo\\\":{\\\"mobile\\\":null,\\\"phone\\\":null,\\\"tablet\\\":null,\\\"userAgent\\\":null,\\\"isPhone\\\":false,\\\"isRobot\\\":false,\\\"version\\\":537.36,\\\"versionStr\\\":null,\\\"dpr\\\":2,\\\"contentWidth\\\":1186,\\\"contentHeight\\\":865,\\\"screenWidth\\\":1792,\\\"screenHeight\\\":1120},\\\"_networkType\\\":\\\"4g\\\",\\\"_locale\\\":\\\"en\\\",\\\"_userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\\\",\\\"_sdkVersion\\\":\\\"1.0.0\\\",\\\"_env\\\":\\\"dev\\\"}', '', 'http://127.0.0.1:5500/example/index.html', '')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 90934
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:26:35,476 ERROR 91010 [-/127.0.0.1/-/68ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.text' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `text`(`name`) VALUES('123123')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.text' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `text`(`name`) VALUES('123123')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 91010
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:27:19,561 ERROR 91024 [-/127.0.0.1/-/64ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.text' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `text` WHERE `name` = '123123' LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.text' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `text` WHERE `name` = '123123' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 91024
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:35:46,326 ERROR 91379 [-/127.0.0.1/-/28ms POST /performance/upload] nodejs.ReferenceError: prevUrl is not defined
+    at PerformanceService.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:12:7)
+    at PerformanceController.upload (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:9:52)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 91379
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:36:01,494 ERROR 91405 [-/127.0.0.1/-/153ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`url`, `prevUrl`, `title`, `dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`) VALUES('http://127.0.0.1:5500/example/index.html', '', '', 0, 0, 42, 441, 492, 506, 49, 492, 491, 49, 41, 'reload')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`url`, `prevUrl`, `title`, `dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`) VALUES('http://127.0.0.1:5500/example/index.html', '', '', 0, 0, 42, 441, 492, 506, 49, 492, 491, 49, 41, 'reload')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 91405
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:37:26,531 ERROR 91410 [-/127.0.0.1/-/121ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`url`, `prevUrl`, `title`, `dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`) VALUES('http://127.0.0.1:5500/example/index.html', '', '', 0, 0, 3, 233, 244, 257, 10, 244, 244, 10, 2, 'reload')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`url`, `prevUrl`, `title`, `dnsParseTime`, `tcpLinkTime`, `reqTime`, `domParseTime`, `domReadyTime`, `loadTime`, `fpTime`, `fcpTime`, `timeToInteract`, `firstByte`, `timeToFirstByte`, `navigationType`) VALUES('http://127.0.0.1:5500/example/index.html', '', '', 0, 0, 3, 233, 244, 257, 10, 244, 244, 10, 2, 'reload')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 91410
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:38:21,239 ERROR 91531 [-/127.0.0.1/-/99ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`url`, `dnsParseTime`) VALUES('http://127.0.0.1:5500/example/index.html', '123')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`url`, `dnsParseTime`) VALUES('http://127.0.0.1:5500/example/index.html', '123')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 91531
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:38:32,408 ERROR 91553 [-/127.0.0.1/-/118ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`url`) VALUES('http://127.0.0.1:5500/example/index.html')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`url`) VALUES('http://127.0.0.1:5500/example/index.html')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 91553
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:39:21,152 ERROR 91560 [-/127.0.0.1/-/45ms POST /performance/upload] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'monitor.performance' doesn't exist
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: INSERT INTO `performance`(`url`) VALUES('http://127.0.0.1:5500/example/index.html')
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'monitor.performance' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "INSERT INTO `performance`(`url`) VALUES('http://127.0.0.1:5500/example/index.html')"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 91560
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:59:08,577 ERROR 92907 [-/127.0.0.1/-/13ms GET /performance/getList] nodejs.ReferenceError: row is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:50:17)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 92907
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:59:26,551 ERROR 92907 [-/127.0.0.1/-/1ms GET /performance/getList] nodejs.ReferenceError: row is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:50:17)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 92907
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:59:29,644 ERROR 92938 [-/127.0.0.1/-/43ms GET /performance/getList] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'limit' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `url` IS NULL AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'limit' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `url` IS NULL AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 92938
+hostname: zhaoyining-mac.local
+
+2022-08-16 18:59:57,566 ERROR 92963 [-/127.0.0.1/-/47ms GET /performance/getList] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'limit' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `url` = '' AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'limit' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `url` = '' AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 92963
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:00:14,358 ERROR 92994 [-/127.0.0.1/-/113ms GET /performance/getList] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'limit' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `url` = 'http://127.0.0.1:5500/example/index.html' AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'limit' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `url` = 'http://127.0.0.1:5500/example/index.html' AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 92994
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:00:36,778 ERROR 93036 [-/127.0.0.1/-/9ms GET /performance/getList] nodejs.TypeError: Cannot read property 'url' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:49:13)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 93036
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:00:38,225 ERROR 93039 [-/127.0.0.1/-/7ms GET /performance/getList] nodejs.TypeError: Cannot read property 'url' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:49:13)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 93039
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:00:52,808 ERROR 93061 [-/127.0.0.1/-/6ms GET /performance/getList] nodejs.TypeError: Cannot read property 'url' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:49:13)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 93061
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:00:58,131 ERROR 93073 [-/127.0.0.1/-/6ms GET /performance/getList] nodejs.TypeError: Cannot read property 'url' of undefined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:49:13)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 93073
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:01:17,194 ERROR 93115 [-/127.0.0.1/-/40ms GET /performance/getList] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'limit' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `url` = 'http://127.0.0.1:5500/example/index.html' AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'limit' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `url` = 'http://127.0.0.1:5500/example/index.html' AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 93115
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:01:31,050 ERROR 93115 [-/127.0.0.1/-/63ms GET /performance/getList] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'limit' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    --------------------
+    at Pool.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:65:19)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `performance` WHERE `url` = 'http://127.0.0.1:5500/example/index.html' AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'limit' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `performance` WHERE `url` = 'http://127.0.0.1:5500/example/index.html' AND `limit` = 10 AND `offset` = 0 LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 93115
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:04:20,218 ERROR 93348 [-/127.0.0.1/-/8ms GET /performance/getList] nodejs.ReferenceError: content is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:54:7)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 93348
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:05:02,336 ERROR 93377 [-/127.0.0.1/-/7ms GET /performance/getList] nodejs.ReferenceError: isMore is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:56:14)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 93377
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:05:03,340 ERROR 93377 [-/127.0.0.1/-/1ms GET /performance/getList] nodejs.ReferenceError: isMore is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:56:14)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 93377
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:05:10,476 ERROR 93377 [-/127.0.0.1/-/1ms GET /performance/getList] nodejs.ReferenceError: isMore is not defined
+    at PerformanceService.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/service/performance.js:56:14)
+    at PerformanceController.getList (/Users/yining.zhao/Desktop/monitor/monitor-server/app/controller/performance.js:15:55)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/koa-compose/index.js:44:32)
+
+pid: 93377
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:21:49,180 ERROR 89974 nodejs.ClusterClientNoResponseError: client no response in 74165ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 89974
+hostname: zhaoyining-mac.local
+
+2022-08-16 19:39:03,143 ERROR 89974 nodejs.ClusterClientNoResponseError: client no response in 923760ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 89974
+hostname: zhaoyining-mac.local
+
+2022-08-16 21:30:08,076 ERROR 89974 nodejs.ClusterClientNoResponseError: client no response in 6644559ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 89974
+hostname: zhaoyining-mac.local
+
+2022-08-17 07:21:26,969 ERROR 89974 nodejs.ClusterClientNoResponseError: client no response in 35478729ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yining.zhao/Desktop/monitor/monitor-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 89974
+hostname: zhaoyining-mac.local
+
